@@ -1,0 +1,132 @@
+@mixin center-flex {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$outline-clr:black;
+$theme1-bg:#f7f4f0;
+$theme1-font:#262626;
+$theme2-bg:#c2e0f2;
+$theme2-font:#5f755e;
+$theme3-bg:#e0d9ff;
+$theme3-font:#9c5f44;
+$theme4-bg:#d4fce5;
+$theme4-font:#24586e;
+
+.landing{
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    @include center-flex();
+    background-color:$theme1-bg;
+}
+
+.content{
+    padding:2em;
+    @media (min-width:1080px) {
+        // border:2px solid pink;
+        
+    }
+}
+
+h1{
+    font-size:50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    font-weight: 800;
+    color:$theme1-font;
+    @media (min-width:1080px) {
+        font-size: 80px;
+        
+    }
+}
+
+
+p{
+    font-size:18px;
+    line-height: 25px;
+    a{
+        color:#262626;
+    }
+    a:visited{
+        color:#262626;
+
+    }
+    a:hover{
+        color:#24586e;
+    }
+    @media (min-width:900px) {
+        width:800px;
+        font-size:20px;
+        line-height: 30px;
+        
+    }
+    
+}
+
+
+.themes{
+    position:absolute;
+    display:flex;
+    top:25px;
+    right:25px;
+    width:150px;
+    justify-content: space-between;
+}
+
+.theme-btn {
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+    border:1px solid black;
+    &:hover{
+        cursor:pointer;
+    }
+}
+
+.theme-1{
+    background-color: $theme1-bg;
+    h1,p{
+        color:$theme1-font;
+    }
+}
+
+.theme-2{
+    background-color: $theme2-bg;
+    h1,p{
+        color:$theme2-font;
+    }
+}
+
+.theme-3{
+    background-color:$theme3-bg;
+    h1,p{
+        color:$theme3-font;
+    }
+}
+
+.theme-4{
+    background-color:$theme4-bg;
+    h1,p{
+        color:$theme4-font;
+    }
+}
+
+.theme1{
+    background: linear-gradient(to right, $theme1-bg 0 50%, $theme1-font 50%);
+}
+
+.theme2{
+    background: linear-gradient(to right, $theme2-bg 0 50%, $theme2-font 50%);
+}
+
+.theme3{
+    background: linear-gradient(to right, $theme3-bg 0 50%, $theme3-font 50%);
+}
+
+.theme4{
+    background: linear-gradient(to right, $theme4-bg 0 50%, $theme4-font 50%);
+}
+
