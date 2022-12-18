@@ -1,10 +1,14 @@
 import "./App.css";
-import Landing from "./Landing";
+import Body1 from "./Body1";
+import Landing2 from "./Landing";
+import Nav from './Nav';
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      <Nav/>
+      <Landing2/>
+      <Body1/>
  
     </div>
   );
