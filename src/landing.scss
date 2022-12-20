@@ -1,27 +1,28 @@
 
+
 $theme1-bg:#f2f2f2;
-$theme1-font:#000;
-$theme2-bg:#064d31;
-$theme2-font:#fadf4b;
-$theme3-font:#e92f29;
-$theme3-bg:#9dcbff;
-$theme4-bg:#fdf98b;
-$theme4-font:#5442ae;
+$theme1-font:#27272a;
+$theme2-bg:#bfdbfe;
+$theme2-font:#ef4444;
+$theme3-font:#fafafa;
+$theme3-bg:#525252;;
+$theme4-bg:#065f46;
+$theme4-font:#fadf4b;
 
 
-.theme1{
+.theme1-btn{
     background: linear-gradient(to right, $theme1-bg 0 50%, $theme1-font 50%);
 }
 
-.theme2{
+.theme2-btn{
     background: linear-gradient(to right, $theme2-bg 0 50%, $theme2-font 50%);
 }
 
-.theme3{
+.theme3-btn{
     background: linear-gradient(to right, $theme3-bg 0 50%, $theme3-font 50%);
 }
 
-.theme4{
+.theme4-btn{
     background: linear-gradient(to right, $theme4-bg 0 50%, $theme4-font 50%);
 }
 
