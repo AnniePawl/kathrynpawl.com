@@ -7,38 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Landing Page */
-
-.theme1{
-  @apply bg-slate-50
-}
-.theme1-nav{
-  @apply bg-yellow-300
-}
-.theme2{
-  @apply bg-cyan-100
-}
-.theme2-nav{
-  @apply bg-red-500
-}
-.theme3{
-  @apply bg-zinc-600
-}
-.theme3-nav{
-  @apply bg-white
-}
-
-.theme4{
-  @apply bg-emerald-800
-}
-.theme4-nav{
-  @apply bg-yellow-300
-}
