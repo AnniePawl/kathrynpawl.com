@@ -7,10 +7,14 @@
 
 }
 
+.landing-bg{
+  background-image:linear-gradient(to top, rgba(228, 228, 228, 0.654)  , transparent 30%, rgba(255, 65, 87, 0.497) 90%);
+}
+
 .background {
-  background-image: url(https://i.imgur.com/fj8qxbH.jpg);
+  // background-image: url(https://i.imgur.com/fj8qxbH.jpg);
   background-size: 100% 100%;
-  animation: MoveBackground 15s linear infinite;
+  animation: MoveBackground 65s linear infinite;
 }
 @keyframes MoveBackground {
   0%{background-position:0% 0%; background-size: 100% 100%; }

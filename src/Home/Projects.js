@@ -1,11 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import './landing.scss';
-import shapesCover from '../assets/shapes-cover.png'
-import patternCover from '../assets/pattern-cover.png'
-import illustrationsCover from '../assets/illlustrations-cover.png'
-import finsCover from '../assets/fins-cover.png'
-import textCover from '../assets/text-cover.png'
+import shapesCover from '../assets/projects/shapes-cover.png'
+import patternCover from '../assets/projects/pattern-cover.png'
+import illustrationsCover from '../assets/projects/illlustrations-cover.png'
+import finsCover from '../assets/projects/fins-cover.png'
+import textCover from '../assets/projects/text-cover.png'
 import { Link } from 'react-router-dom';
 
 export default function Projects(){
@@ -23,7 +23,7 @@ return(
     {/* Landing Content */}
     <div className='grid grid-cols-1 gap-0 py-24'>
         {/* GRAPHIC DESIGN */}
-        <h2 class=' text-xl font-bold uppercase tracking-widest text-zinc-900 mb-2 px-3 '>Graphic Design</h2>
+        <h2 class='border-b-2 border-zinc-800 text-xl font-bold uppercase tracking-widest text-zinc-900 mb-2 mx-3 '>Graphic Design</h2>
         <div class='flex mb-12 max-w-5xl overflow-auto'>
             {/* Shapes */}
             <Link to="/shapes">
@@ -69,8 +69,8 @@ return(
         </div>
       
         {/* CASE STUDIES */}
-        <h2 class=' hidden text-lg font-bold uppercase tracking-widest text-zinc-900 mb-2 px-3 '>Case Studies</h2>
-        <div class='hidden flex mb-12 max-w-5xl overflow-auto'>
+        <h2 class=' border-b-2 border-zinc-800 text-xl font-bold uppercase tracking-widest text-zinc-900 mb-2 mx-3  '>Case Studies</h2>
+        <div class='flex mb-12 max-w-5xl overflow-auto'>
             {/* Fins */}
             <div class='flex flex-col  m-3'>
                 <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-32 w-32 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${patternCover})` }}></div>
@@ -106,8 +106,8 @@ return(
         </div>
 
         {/* Product Design */}
-        <h2 class=' hidden text-lg font-bold uppercase tracking-widest text-zinc-900 mb-2 px-3 '>Product Design</h2>
-        <div class='hidden flex mb-12 max-w-5xl overflow-auto'>
+        <h2 class='  text-lg font-bold uppercase tracking-widest text-zinc-900 mb-2 px-3 '>Product Design</h2>
+        <div class=' flex mb-12 max-w-5xl overflow-auto'>
         {/* Mais x Frieda */}
             <div class='flex flex-col  m-3'>
                 <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-32 w-32 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${patternCover})` }}></div>
