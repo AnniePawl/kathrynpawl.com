@@ -72,82 +72,91 @@ return(
         <h2 class=' border-b-2 border-zinc-800 text-lg md:text-xl font-bold uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Case Studies</h2>
         <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
             {/* Fins */}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-right bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs1})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Fin's Fish Market </h2>
-                    <p class=' text-xs'></p>
-                </div>
-            </div>   
+            <Link to="/fins">
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-right bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs1})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Fin's Fish Market </h2>
+                        <p class=' text-xs'></p>
+                    </div>
+                </div>  
+            </Link> 
             {/* Barko */}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs2})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Barko</h2>
-                    <p class=' text-xs'> </p>
-                </div>
-            </div>  
+            <Link to="/barko">
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs2})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Barko</h2>
+                        <p class=' text-xs'> </p>
+                    </div>
+                </div> 
+            </Link> 
             {/* Flower Bar*/}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs4})` }}></div>
-                <div class='py-3 w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>The Flower Bar</h2>
-                    <p class=' text-xs'></p>
+            <Link to='/flowerbar'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs4})` }}></div>
+                    <div class='py-3 w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>The Flower Bar</h2>
+                        <p class=' text-xs'></p>
+                    </div>
                 </div>
-            </div>
+            </Link>
             {/* Med Smart*/}
-            <div class='flex flex-col m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-top bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs6})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Med Smart</h2>
-                    <p class=' text-xs'></p>
+            <Link to='medsmart'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-top bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs6})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Med Smart</h2>
+                        <p class=' text-xs'></p>
+                    </div>
                 </div>
-            </div> 
+            </Link>
         </div>
 
         {/* Product Design */}
         <h2 class='border-b-2 border-zinc-800 text-lg md:text-xl font-bold uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Product Design</h2>
         <div class='flex mb-12 max-w-7xl overflow-auto'>
             {/* Calculator */}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product1})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Calculator</h2>
-                    <p class=' text-xs'></p>
-                </div>
-            </div>   
+            <Link to='/calculator'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product1})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Calculator</h2>
+                        <p class=' text-xs'></p>
+                    </div>
+                </div>  
+            </Link> 
             {/* Weather App*/}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                <div className='opacity-80 transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product2})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Weather App</h2>
-                    <p class=' text-xs'> </p>
-                </div>
-            </div>  
-
+            <Link to='/weatherapp'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='opacity-80 transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product2})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Weather App</h2>
+                        <p class=' text-xs'> </p>
+                    </div>
+                </div> 
+            </Link> 
             {/* Mais Freida*/}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs5})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Mais Frida</h2>
-                    <p class=' text-xs'></p>
+            <Link to='/maisfrida'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs5})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Mais Frida</h2>
+                        <p class=' text-xs'></p>
+                    </div>
                 </div>
-            </div>
-
+            </Link>
             {/* Package Design*/}
-            <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product3})` }}></div>
-                <div class='py-3 w-fit md:w-72'>
-                    <h2 class='font-bold text-sm uppercase mb-1'>Package Design</h2>
-                    <p class=' text-xs'> </p>
-                </div>
-            </div>  
-
-      
+            <Link to='/packagedesign'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product3})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Package Design</h2>
+                        <p class=' text-xs'> </p>
+                    </div>
+                </div>  
+            </Link>
         </div>
-
-      
-        
         </div>
        
     </div>

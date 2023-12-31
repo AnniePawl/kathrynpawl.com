@@ -29,11 +29,11 @@ export default function Header(){
         <div>
             {/* Header */}
             <div className={`z-[101] bg-transparent px-5 md:px-10 h-16 w-screen fixed top-0 left-0 flex items-center justify-between ${!scroll?"":"bg-white"}`}>
-                <p className={`text-base md:text-base font-medium uppercase tracking-wider md:tracking- text-zinc-50  hover:cursor-default transition-colors duration-[.2s] hover:text-zinc-600 ${!scroll?"":"text-zinc-800"}`}><Link to="/">Kathryn Pawl</Link></p>
+                <p className={`text-base md:text-base font-medium uppercase tracking-wider md:tracking- text-zinc-800  hover:cursor-default transition-colors duration-[.2s] hover:text-zinc-600 ${!scroll?"":"text-zinc-800"}`}><Link to="/">Kathryn Pawl</Link></p>
                 <div onClick={toggleMenu}  class='flex flex-col'>
-                    <div className={`h-[2px] w-6 bg-zinc-50 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}`}></div>
-                    <div className={`h-[2px] w-6 bg-zinc-50 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}` }></div>
-                    <div className={`h-[2px] w-6 bg-zinc-50 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}`}></div>
+                    <div className={`h-[2px] w-6 bg-zinc-800 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}`}></div>
+                    <div className={`h-[2px] w-6 bg-zinc-800 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}` }></div>
+                    <div className={`h-[2px] w-6 bg-zinc-800 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}`}></div>
                 </div>
             </div>
       
@@ -42,26 +42,26 @@ export default function Header(){
                 <ul class='px-10 md:px-8 py-16'>
                     <div class='pb-8'>
                         <span class='font-bold tracking-tight'>Graphic Design</span>
-                        <li class='tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-sm   '><Link to="/shapes">Shapes</Link></li>
-                        <li class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-sm   '><Link to="/patterns">Patterns</Link></li>
-                        <li class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-sm   '><Link to="/typography">Typography</Link></li>
-                        <li class='tracking-tight hover:text-green-500 hover:cursor-default transition-colors text-sm  '><Link to="/illustrations">Illustrations</Link></li>
+                        <li class='tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-sm'><Link to="/shapes">Shapes</Link></li>
+                        <li class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-sm'><Link to="/patterns">Patterns</Link></li>
+                        <li class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-sm'><Link to="/typography">Typography</Link></li>
+                        <li class='tracking-tight hover:text-green-500 hover:cursor-default transition-colors text-sm '><Link to="/illustrations">Illustrations</Link></li>
                     </div>
                     <div class='pb-8'>
                         <span class='font-bold '>Case Studies</span>
-                        <li class='hover:text-red-500 hover:cursor-default transition-colors text-sm  '>Fin's Fish Market</li>
-                        <li class='hover:text-blue-500 hover:cursor-default transition-colors text-sm  '>The Flower Bar</li>
-                        <li class='hover:text-yellow-500 hover:cursor-default transition-colors text-sm  '>Med Smart</li>
-                        <li class='hover:text-green-500 hover:cursor-default transition-colors text-sm  '>Barko</li>
+                        <li class='hover:text-red-500 hover:cursor-default transition-colors text-sm '><Link to='/fins'>Fin's Fish Market</Link></li>
+                        <li class='hover:text-green-500 hover:cursor-default transition-colors text-sm '><Link to='/barko'>Barko</Link></li>
+                        <li class='hover:text-blue-500 hover:cursor-default transition-colors text-sm '><Link to='/flowerbar'>The Flower Bar</Link></li>
+                        <li class='hover:text-yellow-500 hover:cursor-default transition-colors text-sm '><Link to='/medsmart'>Med Smart</Link></li>
                         
                     </div>
 
                     <div class='pb-8'>
                         <span class='font-bold tracking-tight'>Product Design</span>
-                        <li class='tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-sm   '><Link to="/shapes">Calculator</Link></li>
-                        <li class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-sm   '><Link to="/patterns">Weather App</Link></li>
-                        <li class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-sm   '><Link to="/typography">Marty's Milk</Link></li>
-                        <li class='hover:text-purple-500 hover:cursor-default transition-colors text-sm  '>Mais Frida</li>
+                        <li class='tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-sm '><Link to="/calculator">Calculator</Link></li>
+                        <li class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-sm '><Link to="/weatherapp">Weather App</Link></li>
+                        <li class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-sm '><Link to="/packagedesign">Package Design</Link></li>
+                        <li class='hover:text-purple-500 hover:cursor-default transition-colors text-sm'><Link to="/maisfrida">Mais Frida</Link></li>
                     </div>
                     {/* <div class='pb-20'>
                         <span class='font-bold '>Product Design</span>
