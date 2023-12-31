@@ -28,7 +28,7 @@ export default function Header(){
 
         <div>
             {/* Header */}
-            <div className={`z-[101] bg-transparent px-5 md:px-10 h-16 w-screen fixed top-0 left-0 flex items-center justify-between ${!scroll?"":"bg-white"}`}>
+            <div className={`z-[101] bg-white px-4 md:px-10 h-14 md:h-16 w-screen fixed top-0 left-0 flex items-center justify-between ${!scroll?"":"bg-white"}`}>
                 <p className={`text-base md:text-base font-medium uppercase tracking-wider md:tracking- text-zinc-800  hover:cursor-default transition-colors duration-[.2s] hover:text-zinc-600 ${!scroll?"":"text-zinc-800"}`}><Link to="/">Kathryn Pawl</Link></p>
                 <div onClick={toggleMenu}  class='flex flex-col'>
                     <div className={`h-[2px] w-6 bg-zinc-800 rounded-full mb-[4px] ${!isOpen ? "" : " bg-zinc-800"} ${!scroll ? "" : " bg-zinc-800"}`}></div>
@@ -70,10 +70,11 @@ export default function Header(){
                         <li class='hover:text-emerald-600 hover:cursor-default transition-colors text-sm '>Typography</li>
                     </div> */}
 
-                    <a href="mailto:kathrynpawl@gmail.com" class='text-zinc-800 px-4 py-1 border border-zinc-800 no-underline rounded-full absolute bottom-10 left-10 md:left-20 text-sm underline hover:bg-zinc-800 hover:text-white duration-[.7s] transition-colors'>
+                    <a href="mailto:kathrynpawl@gmail.com" class='hidden text-zinc-800 px-4 py-1 border border-zinc-800 no-underline rounded-full absolute bottom-10 left-10 md:left-20 text-sm underline hover:bg-zinc-800 hover:text-white duration-[.7s] transition-colors'>
                         Contact
                         {/* <img src={mailIcon} class='h-6 w-6'></img> */}
                     </a>
+                    <a href="mailto:kathrynpawl@gmail.com" class='text-zinc-800 absolute bottom-10 left-10 md:left-8  text-sm underline '>Contact</a>
                 </ul>
             </div>
       </div>

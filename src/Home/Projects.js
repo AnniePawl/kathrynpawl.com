@@ -22,9 +22,9 @@ export default function Projects(){
 return(
     <div className='bg-zinc-50 h-fit w-screen relative flex items-center justify-center flex-col z-[10] flex'>
     {/* Landing Content */}
-    <div className='grid grid-cols-1 gap-0 py-16 px-4 lg:px-0 md:py-24'>
+    <div className='grid grid-cols-1 gap-0 py-12 px-2 lg:px-0 md:py-24'>
         {/* GRAPHIC DESIGN */}
-        <h2 class='border-b-2 border-zinc-800 text-lg md:text-xl font-bold uppercase tracking-widest text-zinc-700 mb-2 mx-3 '>Graphic Design</h2>
+        <h2 class='border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3 '>Graphic Design</h2>
         <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
             {/* Shapes */}
             <Link to="/shapes">
@@ -69,7 +69,7 @@ return(
         </div>
       
         {/* CASE STUDIES */}
-        <h2 class=' border-b-2 border-zinc-800 text-lg md:text-xl font-bold uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Case Studies</h2>
+        <h2 class=' border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3   '>Case Studies</h2>
         <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
             {/* Fins */}
             <Link to="/fins">
@@ -114,7 +114,7 @@ return(
         </div>
 
         {/* Product Design */}
-        <h2 class='border-b-2 border-zinc-800 text-lg md:text-xl font-bold uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Product Design</h2>
+        <h2 class='border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Product Design</h2>
         <div class='flex mb-12 max-w-7xl overflow-auto'>
             {/* Calculator */}
             <Link to='/calculator'>
