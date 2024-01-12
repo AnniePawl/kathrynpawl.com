@@ -1,5 +1,7 @@
+
 import Header from './Header'
 import Home from './Home/Home'
+
 // Graphic Design Links
 import Shapes from './GraphicDesign/Shapes';
 import Patterns from './GraphicDesign/Patterns';
@@ -14,22 +16,23 @@ import MedSmart from './CaseStudies/MedSmart';
 import Calculator from './ProductDesign/Calculator';
 import MaisFrida from './ProductDesign/MaisFrida';
 import PackageDesign from './ProductDesign/PackageDesign';
-import WeatherApp from './ProductDesign/WeatherApp'
-
+import WeatherApp from './ProductDesign/WeatherApp';
 
 import {
+ 
     BrowserRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
 
-
-
 export default function App() {
+
+
+   
     return (
       
     <Router>
-        <Header />
+        <Header/>
         <Routes>
             <Route exact path="/" element={<Home />} />
             {/* Graphic Design */}

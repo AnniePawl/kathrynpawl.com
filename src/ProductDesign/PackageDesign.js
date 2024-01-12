@@ -8,7 +8,7 @@ export default function PackageDesign(){
     }, [])
 
     return(
-        <div class='bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-28'>
+        <div class='bg-white h-fit w-screen flex flex-col items-center justify-center py-28'>
             <h2 class='pb-6 md:pb-12 text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Package Design</h2>
             <div className="flex grid grid-cols-3 gap-2 md:gap-4">
                 {/* <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${pic1})` }}></div>

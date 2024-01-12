@@ -1,4 +1,5 @@
 import React from "react";
+import ToTop from "../ToTop";
 import { useEffect } from "react";
 import text1 from '../assets/text/text-1.png'
 import text2 from '../assets/text/text-2.png'
@@ -30,6 +31,7 @@ export default function Typography(){
                 <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${text7})` }}></div>
                 <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${text8})` }}></div>
             </div>
+            <ToTop bgColor='#65a30d'/>
         </div>
     )
 }

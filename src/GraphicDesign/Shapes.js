@@ -1,4 +1,5 @@
 import React from "react";
+import ToTop from "../ToTop";
 import shape1 from '../assets/shapes/shapes-1.png'
 import shape2 from '../assets/shapes/shapes-2.png'
 import shape3 from '../assets/shapes/shapes-3.png'
@@ -22,7 +23,7 @@ export default function Shapes(){
       }, [])
 
     return(
-        <div class='bg-zinc-50 h-fit w-screen flex flex-col justify-center items-center py-28'>
+        <div class='overflow-hiden bg-zinc-50 h-fit w-screen flex flex-col justify-center items-center py-20 md:py-28'>
             <h2 class='pb-6 md:pb-12 text-base md:text-xl font-bold uppercase tracking-widest text-zinc-900 '>Shapes</h2>
             <div className="px-4 md:px-0 flex grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
                 <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape1})` }}></div>
@@ -41,6 +42,7 @@ export default function Shapes(){
                 <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape14})` }}></div>
                 <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape15})` }}></div>
             </div>
+            <ToTop bgColor='#fde047'/>
         </div>
     )
 }

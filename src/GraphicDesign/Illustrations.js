@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useRef } from "react";
+import ToTop from "../ToTop";
 import { HashLink } from "react-router-hash-link";
-
 
 import pic1 from '../assets/illustrations/pic-1.png'
 import pic2 from '../assets/illustrations/pic-2.png'
@@ -117,6 +117,7 @@ export default function Illustrations(){
                    
             </div>
 
+            <ToTop bgColor='#10b981'/>
 
         </div>
     )
