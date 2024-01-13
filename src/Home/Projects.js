@@ -84,7 +84,7 @@ return(
             {/* Barko */}
             <Link to="/barko">
                 <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs2})` }}></div>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all p-10 '  style={{ backgroundImage:`url(${cs2})` }}></div>
                     <div class='py-3 w-fit md:w-72'>
                         <h2 class='font-bold text-sm uppercase mb-1'>Barko</h2>
                         <p class=' text-xs'> </p>

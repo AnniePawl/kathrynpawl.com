@@ -10,7 +10,7 @@ export default function Calculator(){
 
     return(
         <div class='bg-white h-fit w-screen flex flex-col items-center justify-center py-28'>
-            <h2 class='pb-2 md:pb-12 text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Calculator</h2>
+            <h2 class='text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Calculator</h2>
             <img class='h-auto w-[400px]' src={calc}/>
            
         </div>

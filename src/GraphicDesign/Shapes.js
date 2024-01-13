@@ -23,24 +23,24 @@ export default function Shapes(){
       }, [])
 
     return(
-        <div class='overflow-hiden bg-zinc-50 h-fit w-screen flex flex-col justify-center items-center py-20 md:py-28'>
+        <div class='overflow-hiden bg-zinc-50 h-fit w-screen flex flex-col justify-center items-center py-20 md:pt-28'>
             <h2 class='pb-6 md:pb-12 text-base md:text-xl font-bold uppercase tracking-widest text-zinc-900 '>Shapes</h2>
             <div className="px-4 md:px-0 flex grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape1})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape2})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape3})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape4})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape9})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape6})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape8})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape7})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape5})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape12})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape10})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape11})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape13})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape14})` }}></div>
-                <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape15})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape1})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape2})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape3})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape4})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape9})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape6})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape8})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape7})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape5})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape12})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape10})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape11})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape13})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape14})` }}></div>
+                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-96 md:w-96 bg-center bg-cover '  style={{ backgroundImage:`url(${shape15})` }}></div>
             </div>
             <ToTop bgColor='#fde047'/>
         </div>
