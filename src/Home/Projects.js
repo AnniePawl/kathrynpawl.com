@@ -23,6 +23,51 @@ return(
     <div className='bg-zinc-50 h-fit w-screen relative flex items-center justify-center flex-col z-[10] flex'>
     {/* Landing Content */}
     <div className='grid grid-cols-1 gap-0 py-12 px-2 lg:px-0 md:py-24'>
+               {/* CASE STUDIES */}
+               <h2 class=' border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3   '>Case Studies</h2>
+        <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
+            {/* Fins */}
+            <Link to="/fins">
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-right bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs1})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Fin's Fish Market </h2>
+                        <p class=' text-xs'></p>
+                    </div>
+                </div>  
+            </Link> 
+            {/* Barko */}
+            <Link to="/barko">
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all p-10 '  style={{ backgroundImage:`url(${cs2})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Barko</h2>
+                        <p class=' text-xs'> </p>
+                    </div>
+                </div> 
+            </Link> 
+            {/* Flower Bar*/}
+            <Link to='/flowerbar'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs4})` }}></div>
+                    <div class='py-3 w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>The Flower Bar</h2>
+                        <p class=' text-xs'></p>
+                    </div>
+                </div>
+            </Link>
+            {/* Med Smart*/}
+            <Link to='medsmart'>
+                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
+                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-top bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs6})` }}></div>
+                    <div class='py-3 w-fit md:w-72'>
+                        <h2 class='font-bold text-sm uppercase mb-1'>Med Smart</h2>
+                        <p class=' text-xs'></p>
+                    </div>
+                </div>
+            </Link>
+        </div>
+       
         {/* GRAPHIC DESIGN */}
         <h2 class='border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3 '>Graphic Design</h2>
         <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
@@ -68,51 +113,6 @@ return(
             </Link>
         </div>
       
-        {/* CASE STUDIES */}
-        <h2 class=' border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3   '>Case Studies</h2>
-        <div class='flex mb-6 md:mb-12 max-w-7xl overflow-auto'>
-            {/* Fins */}
-            <Link to="/fins">
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-right bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs1})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Fin's Fish Market </h2>
-                        <p class=' text-xs'></p>
-                    </div>
-                </div>  
-            </Link> 
-            {/* Barko */}
-            <Link to="/barko">
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all p-10 '  style={{ backgroundImage:`url(${cs2})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Barko</h2>
-                        <p class=' text-xs'> </p>
-                    </div>
-                </div> 
-            </Link> 
-            {/* Flower Bar*/}
-            <Link to='/flowerbar'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs4})` }}></div>
-                    <div class='py-3 w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>The Flower Bar</h2>
-                        <p class=' text-xs'></p>
-                    </div>
-                </div>
-            </Link>
-            {/* Med Smart*/}
-            <Link to='medsmart'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-top bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs6})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Med Smart</h2>
-                        <p class=' text-xs'></p>
-                    </div>
-                </div>
-            </Link>
-        </div>
-
         {/* Product Design */}
         <h2 class='border-b-[1.5px] border-zinc-700 text-base md:text-xl font-medium uppercase tracking-widest text-zinc-700 mb-2 mx-3  '>Product Design</h2>
         <div class='flex mb-12 max-w-7xl overflow-auto'>

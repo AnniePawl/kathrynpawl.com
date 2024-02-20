@@ -33,8 +33,13 @@ export default function Barko(){
                 </div>
                 {/* My Role */}
                 <div class='pb-8'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>My Role:</h3>
-                    <p class='text-sm md:text-base text-zinc-600 leading-5'>To conduct market and user research, and based on those findings, deliver a design concept that would form the whole mobile service altogether. In this case study, you will see how I went from the discovery phase to ideation, iteration, and solution delivery using user research, wireframing, prototyping, and design solution. </p>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>My Role:</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5'>My role on the project was to conduct market and user research, and based on those findings, deliver a design concept that would form the whole movie service altogether. In this case study, you will see how I went from the discovery phase to ideation, iteration, and solution delivery using user research, prototyping, and design solution. </p>
+                </div>
+                {/* The Product */}
+                <div class='pb-8'>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>The Product:</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5'>BARKO is a mobile application designed as one-stop application for your pets’ needs. BARKO’s primary goal is to have an application where pet owners can easily find a schedule dog walkers located near him. This app also provides is a section to request additional service in addition to dog walking. The problem that BARKO had to solve was simple- offer an alternative to dog owners, who don’t have enough time to care for their pets.  </p>
                 </div>
                 {/* Project Timeline */}
                    <div class='pb-8 w-full flex flex-col'>
@@ -43,14 +48,65 @@ export default function Barko(){
                 </div>
                 {/* Discovery + Ideation */}
                 <div class='pb-8'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base  font-bold uppercase tracking-widest'>Discovery & Ideation</h3>
+                    <h3 class='text-[#569b3e] text-sm md:text-base  font-bold uppercase tracking-widest mb-1'>Discovery & Ideation</h3>
                     <p class='mb-3 text-sm md:text-base text-zinc-600 leading-5'>The first step I took was defining the problem our potential users were facing, identifying their pain points, and conducting market research in order to validate BARKO's goals. </p>
                     <p class='mb-3 text-sm md:text-base text-zinc-600 leading-5'>Through my research, I discovered that there was a substantial increase in pet ownership and pet spending in the past 20 years. Despite this increase in pet ownership, there was a clearly identified problem affecting the care of these pets- most owners have long working hours and not enough time to tend to their beloved critters.  This in turn, generates a growing search for pet caring services. </p>
                     <p class='text-sm md:text-base text-zinc-600 leading-5'>With the problem identified and defined, I conducted interviews with potential users in order to establish their pain points. Based on that information, I had a brainstorming session  to identify a few common threads when it comes to users' pain points and solutions to how those pain points should be addressed. </p>
                 </div>
+                {/* User Pain Points */}
+                <div class='pb-4'>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>User Pain Points</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5'>I browsed current apps and services and considered the question, "what are they missing?" After researching ratings, conducting interview, and analyzing polls, here are the most common frustrations with similar platforms: </p>
+                </div>
+                <div class='flex grid gird-cols-1 md:grid-cols-3 gap-3 pb-8'>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5 '>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Proximity! It was difficult to find a petsitter close by.</p>
+                    </div>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Not many options for additional services, such as pet sitting or boarding. </p>
+                    </div>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Booking multiple pets was challenging.</p>
+                    </div>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-mdp-3 md: p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Petsitters profiles are not vetted or depict any ratings and reviews.</p>
+                    </div>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>No direct payment  to walker. A steep portion is deducted by company from inital service fee.</p>
+                    </div>
+                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Premature payment before established trust makes the user uncomfortable.</p>
+                    </div>
+                </div>
+                {/* Solution Brainstorm */}
+                <div class='pb-2 self-start'>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>Solution Brainstorming</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5'> I brainstormed the following solutions to address the user pain points above.</p>
+                </div>
+                <div class='flex grid grid-cols-1 md:grid-cols-3 gap-3 pb-8'>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5 '>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Verified Identity for added protection.</p>
+                    </div>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>A rewards system for dog walkers.</p>
+                    </div>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Option to tip petgivers directly.</p>
+                    </div>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Petsitters profiles are not vetted or depict any ratings and reviews.</p>
+                    </div>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5'>Photo gallery option on profile to ease and encourage dog owners in their hire.</p>
+                    </div>
+                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
+                        <p class='text-center text-sm text-zinc-600 leading-5 mb-3'>Quick but detailed booking service with extra service options.</p>
+                    </div>
+                </div>
                 {/* User Personas */}
                 <div class='pb-8 flex flex-col'>
-                    <h3 class='mb-2 text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>User Personas</h3>
+                    <h3 class=' text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>User Personas</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5 mb-3'>The next step was to gather all of information and define and understand the user needs. I created user personas that best represented my findings, reflected the main users of this app, and ultimately aided in delivering a functional design down the road. </p>
                     <div class='w-full grid grid-cols-1 md:grid-cols-2 gap-2 bg-zinc-200 rounded-md px-8 py-10'>
                         <div class='flex flex-col justify-center items-center '>
                             <div class='flex items-center'>
@@ -76,54 +132,6 @@ export default function Barko(){
                     </div>
                     {/* <p class='font-serif text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p> */}
                 </div>
-                {/* User Pain Points */}
-                <div class='pb-4'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>User Pain Points</h3>
-                    <p class='text-sm md:text-base text-zinc-600 leading-5'>I browsed current apps and services and considered the question, "what are they missing?" After researching ratings, conducting interview, and analyzing polls, here are the most common frustrations with similar platforms: </p>
-                </div>
-                <div class='flex grid gird-cols-1 md:grid-cols-3 gap-3 pb-8'>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5 '>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Proximity! It was difficult to find a petsitter close by.</p>
-                    </div>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Not many options for additional services, such as pet sitting or boarding. </p>
-                    </div>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Booking multiple pets was challenging.</p>
-                    </div>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-mdp-3 md: p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Petsitters profiles are not vetted or depict any ratings and reviews.</p>
-                    </div>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>No direct payment  to walker. A steep portion is deducted by company from inital service fee.</p>
-                    </div>
-                    <div class='flex items-center justify-center shadow-sm w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Premature payment before established trust makes the user uncomfortable.</p>
-                    </div>
-                </div>
-                <div class='pb-2 self-start'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>Solution Brainstorming</h3>
-                </div>
-                <div class='flex grid grid-cols-1 md:grid-cols-3 gap-3 pb-8'>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5 '>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Verified Identity for added protection.</p>
-                    </div>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>A rewards system for dog walkers.</p>
-                    </div>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Option to tip petgivers directly.</p>
-                    </div>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Petsitters profiles are not vetted or depict any ratings and reviews.</p>
-                    </div>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Photo gallery option on profile to ease and encourage dog owners in their hire.</p>
-                    </div>
-                    <div class='shadow-sm flex items-center justify-center w-full bg-zinc-200 rounded-md p-3 md:p-5'>
-                        <p class='text-center text-sm text-zinc-600 leading-5'>Quick but detailed booking service with extra service options.</p>
-                    </div>
-                </div>
                 <div class='pb-8 self-start w-full'>
                     <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>User Flow</h3>
                     <div class='w-full h-[200px] md:h-[500px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoFlow})` }}></div>
@@ -138,12 +146,12 @@ export default function Barko(){
                 </div>
                 {/* UI Details (colors+fonts) */}
                 <div class='pb-4 self-start w-full flex flex-col items-center'>
-                    <h3 class='self-start pb-4 text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>UI Details</h3>
+                    <h3 class='self-start text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>UI Details</h3>
                     <p class='mb-3 text-sm md:text-base text-zinc-600 leading-5'> Here are some additional details about my design, including colorways, fonts, and branding elements. When designing the logo, I wanted to make sure it could translate well into an app icon and clearly depict that the mobile application is related to dogs. </p>
                     <div class='w-full h-[200px] md:h-[375px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoColors})` }}></div>
                     <div class='w-full h-[300px] md:h-[600px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoFonts})` }}></div>
                 </div>
-                <div class='self-center w-[200px] md:w-1/2 h-[150px] md:h-[225px] bg-cover bg-top' style={{backgroundImage:`url(${barkoLogo})`}}></div>
+                <div class='self-center mt-20 w-[200px] md:w-[300px] h-[150px] md:h-[225px] bg-cover bg-top' style={{backgroundImage:`url(${barkoLogo})`}}></div>
             </div>
             <ToTop bgColor='#569b3e'/>
         </div>

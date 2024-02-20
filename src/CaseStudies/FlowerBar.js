@@ -16,7 +16,7 @@ export default function FlowerBar(){
             <div class='w-full max-w-5xl flex flex-col items-center'>
                 <h2 class='flex text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>The Flower Bar</h2>
                 <span class='font-bold uppercase text-sm tracking-wide text-lime-600'>Website Design</span>
-                <div class=' w-full h-[95px] md:h-[250px] bg-cover bg-top' style={{ backgroundImage:`url(${flowerbarHero})` }}></div>
+                <div class=' w-full h-[95px] md:h-[200px] bg-cover bg-top' style={{ backgroundImage:`url(${flowerbarHero})` }}></div>
             </div>
             <div class='px-5 w-full max-w-5xl flex flex-col pt-5'>
                 <h2 class='self-center flex text-lime-600 text-base md:text-lg font-bold uppercase tracking-widest'>Project Overview</h2>
@@ -36,18 +36,28 @@ export default function FlowerBar(){
                     </div>
                     <div class='w-full bg-lime-50 rounded-md p-5'>
                         <h3 class='mr-2 text-lime-600 text-xs md:text-sm font-bold uppercase tracking-widest'>My Role</h3>
-                        <p class='text-sm md:text-base font-serif'></p>
+                        <p class='text-sm md:text-base font-serif'>UX Researcher, UX Designer, Interaction Designer, Branding Designer</p>
                     </div>
                     <div class='w-full bg-lime-50 rounded-md p-5'>
                         <h3 class='mr-2 text-lime-600 text-xs md:text-sm font-bold uppercase tracking-widest'>Responsibilities</h3>
-                        <p class='text-sm md:text-base font-serif'>UX Researcher
-UX Designer
-Interaction Design
-Branding Design</p>
+                        <p class='text-sm md:text-base font-serif'>User Interviews, Digital wireframing, Low and High-fidelity Prototyping, Affinity Mapping, Competitive Analysis, Accounting for accessibility, Iterating on designs
+                        </p>
                     </div>
                 </div>
+                {/* Design Process */}
+                <div class='mb-10 w-full h-[200px] md:h-[450px] bg-cover bg-top' style={{ backgroundImage:`url(${designProcess})` }}></div>
+                {/* User Research */}
+                <div class='pb-8 w-full'>
+                    <h3 class='mb-2 md:mb-4 text-lime-600 text-sm md:text-base font-bold uppercase tracking-widest'>User Research</h3>
+                    <p class='text-base md:text-lg text-zinc-600 font-serif leading-5'>I decided to perform a User Survey to collect quantitive data, asking users questions like “what do you feel about the existing web app?” or “did you experience any inconsistencies in your ordering process?” A user survey was conducted on 35 participants. This data gave confidence to my initial desk research findings. As a result, I discovered these insights:  </p>
+                    <div class='w-full grid grid-cols-3'>
+                        <div class='bg-zinc-200 rounded-full p-4 relative'>
+                            <div class='bg-lime-600 text-white` -top-5 left-0 rounded-full h-fit w-fit p-2'> 79%</div>
+                            <p class='font-serif '> of urban individuals want to have flowers in their homes, offices, and living spaces</p>
+                        </div>
 
-                <div class=' w-full h-[200px] md:h-[450px] bg-cover bg-top' style={{ backgroundImage:`url(${designProcess})` }}></div>
+                    </div>
+                </div>
             </div>
             <ToTop bgColor='#65a30d'/>
         </div>

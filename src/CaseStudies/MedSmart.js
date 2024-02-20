@@ -2,6 +2,13 @@ import React from "react";
 import ToTop from "../ToTop";
 import medsmartHero from '../assets/studies/medsmart/medsmart-hero.jpeg'
 import medsmartAvatar from '../assets/studies/medsmart/medsmart-avatar.png'
+import medsmartMap from '../assets/studies/medsmart/medsmart-empathymap.png'
+import medsmartWireframe from '../assets/studies/medsmart/medsmart-wireframe.png'
+import medsmartPrototype1 from '../assets/studies/medsmart/medsmart-prototype1.jpeg'
+import medsmartPrototype2 from '../assets/studies/medsmart/medsmart-prototype2.jpeg'
+import medsmartPrototype3 from '../assets/studies/medsmart/medsmart-prototype3.jpeg'
+import medsmartPrototype4 from '../assets/studies/medsmart/medsmart-prototype4.png'
+import userFlow from '../assets/studies/medsmart/userflow.png'
 import { useEffect } from "react";
 
 
@@ -68,22 +75,22 @@ export default function MedSmart(){
                     <p class='pb-2 font-serif text-lg'>Here are the results of a survey I conducted to gather insights about users' needs. </p>
                     <div class='w-full grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4'>
                         <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-xl '>68% </span><p class='tracking-wider text-zinc-50'> take medication on an ongoing basis </p>
+                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>68% </span><p class='tracking-wider text-zinc-50'> take medication on an ongoing basis </p>
                         </div>
                         <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-xl '>89% </span><p class='tracking-wider text-zinc-50'> want reminders to take their meds</p>
+                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>89% </span><p class='tracking-wider text-zinc-50'> want reminders to take their meds</p>
                         </div>
                         <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-xl '>57% </span><p class='tracking-wider text-zinc-50'> are unaware of side effects </p>
+                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>57% </span><p class='tracking-wider text-zinc-50'> are unaware of side effects </p>
                         </div>
                         <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-xl '>80% </span><p class='tracking-wider text-zinc-50'> often miss a dose</p>
+                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>80% </span><p class='tracking-wider text-zinc-50'> often miss a dose</p>
                         </div>
                     </div>
                 </div>
                 {/* User Personas */}
                 <div class='pb-8 flex flex-col'>
-                    <h3 class='mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>User Personas</h3>
+                    <h3 class='mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>User Personas</h3>
                     <div class='w-full grid grid-cols-1 md:grid-cols-2 gap-2 bg-lime-100 rounded-md px-8 py-10'>
                         <div class='flex flex-col justify-center items-center '>
                             <div class='flex items-center'>
@@ -110,13 +117,34 @@ export default function MedSmart(){
                     {/* <p class='font-serif text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p> */}
                 </div>
                 {/* Empathy Map */}
-                    <div class='pb-8 flex flex-col'>
-                    <h3 class='mr-2 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Empathy Map</h3>
-                    {/* <p class='font-serif text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p> */}
+                <div class='pb-8 flex flex-col'>
+                    <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Empathy Map</h3>
+                    <div class='rounded-md w-full h-[200px] md:h-[425px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartMap})` }}></div>
+                </div>
+                {/* User Flow */}
+                <div class='pb-8 flex flex-col'>
+                    <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>User Flow</h3>
+                    <div class='rounded-md w-full h-[28px] md:h-[720px] bg-cover bg-center' style={{ backgroundImage:`url(${userFlow})` }}></div>
+                </div>
+                {/* Lo Fi Wireframes */}
+                <div class='pb-8 flex flex-col'>
+                    <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Lo-Fi Wireframes</h3>
+                    <div class='rounded-md w-full h-[400px] md:h-[1050px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartWireframe})` }}></div>
+                </div>
+                {/* Hi Fi Wireframes */}
+                <div class='pb-8 flex flex-col'>
+                    <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Hi-Fi Wireframes</h3>
+                    <div class='rounded-md w-full h-[300px] md:h-[500px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype1})` }}></div>
+                    <div class='rounded-md w-full h-[250px] md:h-[600px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype2})` }}></div>
+                    <div class='rounded-md w-full h-[200px] md:h-[500px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype3})` }}></div>
+                </div>
+                {/* Prototype */}
+                <div class='pb-8 flex flex-col'>
+                    <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Prototype</h3>
+                    <div class='rounded-md w-full h-[300px] md:h-[850px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype4})` }}></div>
                 </div>
             </div>
-      
-            <ToTop bgColor='#93c5fd'/>
+            <ToTop bgColor='#0891b2' color='#FFFFFF'/>
         </div>
     )
 }
