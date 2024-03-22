@@ -54,7 +54,7 @@ export default function Barko(){
                     <p class='text-sm md:text-base text-zinc-600 leading-5'>With the problem identified and defined, I conducted interviews with potential users in order to establish their pain points. Based on that information, I had a brainstorming session  to identify a few common threads when it comes to users' pain points and solutions to how those pain points should be addressed. </p>
                 </div>
                 {/* User Pain Points */}
-                <div class='pb-4'>
+                <div class='pb-2'>
                     <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>User Pain Points</h3>
                     <p class='text-sm md:text-base text-zinc-600 leading-5'>I browsed current apps and services and considered the question, "what are they missing?" After researching ratings, conducting interview, and analyzing polls, here are the most common frustrations with similar platforms: </p>
                 </div>
@@ -79,7 +79,7 @@ export default function Barko(){
                     </div>
                 </div>
                 {/* Solution Brainstorm */}
-                <div class='pb-2 self-start'>
+                <div class='pb-3 self-start'>
                     <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>Solution Brainstorming</h3>
                     <p class='text-sm md:text-base text-zinc-600 leading-5'> I brainstormed the following solutions to address the user pain points above.</p>
                 </div>
@@ -130,10 +130,10 @@ export default function Barko(){
                             <p class='mb-4 text-sm text-zinc-600 leading-5'>Have more free time, have an alternative to asking a family member to care for a pet, find a trustworthy dog walker.    </p>
                         </div>
                     </div>
-                    {/* <p class='font-serif text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p> */}
                 </div>
                 <div class='pb-8 self-start w-full'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>User Flow</h3>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>User Flow</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5 mb-3'>With all that information now compiled, I was able to begin laying out the initial user flow for the app. Then, based on that user flow, I created a set of wireframes that helped test and validate the ideas I had for possible design solutions.  </p>
                     <div class='w-full h-[200px] md:h-[500px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoFlow})` }}></div>
                 </div>
                 {/* <div class='pb-8 self-start'>
