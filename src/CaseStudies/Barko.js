@@ -4,6 +4,11 @@ import barkoHero2 from '../assets/studies/barko/barko-cover2.jpeg'
 import barkoHero3 from '../assets/studies/cs-2.jpeg'
 import barkoColors from '../assets/studies/barko/barko-colors.png'
 import barkoFonts from '../assets/studies/barko/barko-fonts.png'
+import prototype from '../assets/studies/barko/barko-prototype.png'
+import hifi1 from '../assets/studies/barko/barko-hifi1.png'
+import hifi2 from '../assets/studies/barko/barko-hifi-2.png'
+import hifi3 from '../assets/studies/barko/barko-hifi-3.png'
+import hifi4 from '../assets/studies/barko/barko-hifi-4.png'
 import barkoWireframe from '../assets/studies/barko/barko-wireframe.png'
 import barkoFlow from '../assets/studies/barko/barko-flow.png'
 import barkoTimeline from '../assets/studies/barko/barko-timeline.png'
@@ -44,7 +49,7 @@ export default function Barko(){
                 {/* Project Timeline */}
                    <div class='pb-8 w-full flex flex-col'>
                     <h3 class='pb-8 text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>Project Timeline</h3>
-                    <div class='opacity-70 self-center w-full md:w-3/4 h-[160px] md:h-[300px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoTimeline})` }}></div>
+                    <img class='w-full md:w-3/4 opacity-70 self-center' src={barkoTimeline}/>
                 </div>
                 {/* Discovery + Ideation */}
                 <div class='pb-8'>
@@ -131,25 +136,34 @@ export default function Barko(){
                         </div>
                     </div>
                 </div>
+                {/* User Flow */}
                 <div class='pb-8 self-start w-full'>
                     <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>User Flow</h3>
                     <p class='text-sm md:text-base text-zinc-600 leading-5 mb-3'>With all that information now compiled, I was able to begin laying out the initial user flow for the app. Then, based on that user flow, I created a set of wireframes that helped test and validate the ideas I had for possible design solutions.  </p>
-                    <div class='w-full h-[200px] md:h-[500px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoFlow})` }}></div>
+                    <img class='w-full max-w-7xl' src={barkoFlow}/>
                 </div>
-                {/* <div class='pb-8 self-start'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>Wireframe</h3>
-                    <p class='pb-4 text-sm md:text-base text-zinc-600 leading-5'>Based on the user flow, I created wireframes that helped test and validate the ideas I had for possible design solutions. </p>
-                    <div class='self-center w-full md:w-full h-[900px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoWireframe})` }}></div>
-                </div> */}
+                {/* Lofi Prototype */}
                 <div class='pb-8 self-start'>
-                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest'>Prototypes</h3>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-3'>Lo-fi Wireframes</h3>
+                    <img class='w-full max-w-7xl' src={prototype}/>
+                </div>
+                {/* HiFi Prototype */}
+                <div class='pb-8 self-start'>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>Hi-Fi Wireframes</h3>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5 mb-3'>Based on my research the goal was the come up with an intuitive user-friendly interface, that felts reliable and easy to navigate. Next, I introduced typography, colors, and others visual elements to add both playfulness and professionalism.   </p>
+                    <div class='flex flex-col items-center justify-center'>
+                        <img class='mb-3 w-full max-w-7xl' src={hifi1}/>
+                        <img class='mb-3 w-full max-w-7xl' src={hifi2}/>
+                    </div>
+                    <img class='mb-3 w-full max-w-7xl' src={hifi3}/>
+                    <img class='mb-3 w-full max-w-7xl' src={hifi4}/>
                 </div>
                 {/* UI Details (colors+fonts) */}
                 <div class='pb-4 self-start w-full flex flex-col items-center'>
                     <h3 class='self-start text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>UI Details</h3>
                     <p class='mb-3 text-sm md:text-base text-zinc-600 leading-5'> Here are some additional details about my design, including colorways, fonts, and branding elements. When designing the logo, I wanted to make sure it could translate well into an app icon and clearly depict that the mobile application is related to dogs. </p>
-                    <div class='w-full h-[200px] md:h-[375px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoColors})` }}></div>
-                    <div class='w-full h-[300px] md:h-[600px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoFonts})` }}></div>
+                    <img class='w-full max-w-7xl' src={barkoColors}/>
+                    <img class='w-full max-w-7xl' src={barkoFonts}/>
                 </div>
                 <div class='self-center mt-20 w-[200px] md:w-[300px] h-[150px] md:h-[225px] bg-cover bg-top' style={{backgroundImage:`url(${barkoLogo})`}}></div>
             </div>
