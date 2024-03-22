@@ -24,6 +24,7 @@ export default function MedSmart(){
                 <span class='pb-4 font-bold uppercase text-sm tracking-wide text-cyan-600'>Medication Reminder App</span>
                 <div class='rounded-md w-full h-[200px] md:h-[350px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartHero})` }}></div>
             </div>
+            {/* Project Overview */}
             <div class='px-6 w-full max-w-5xl flex flex-col pt-12'>
                 <h2 class='self-center flex text-cyan-600 text-base md:text-lg font-bold uppercase tracking-widest'>Project Overview</h2>
                 <p class='font-serif text-lg text-center pb-5'>September 2022 - October 2022</p>
@@ -31,6 +32,7 @@ export default function MedSmart(){
                     <p class='text-center font-serif text-base md:text-lg mb-2'>Med Smart is a mobile app that allows users to log their medications and set reminders for how often and how much they should be taking their prescriptions.  Med Smart also provides users with the option of connecting to your local pharmacy to refill prescriptions or speak to a pharmacist. </p>
                     <p class='text-center font-serif text-base md:text-lg mb-2'>The purpose of this mobile app is to help individuals take their prescriptions accurately and on time, while also providing the opportunity for users to learn about possible drug interactions, health benefits, side effects, and or precautions of the medication they are taking. </p>
                 </div>
+                {/* Problem/Solution */}
                 <div class='flex flex-col md:flex-row w-full pb-8'>
                     <div class='md:mr-2 w-full bg-cyan-600 rounded-md p-5 mb-3 md:mb-0 '>
                         <h3 class='mr-2 text-white text-xs md:text-sm font-bold uppercase tracking-widest'>The Problem</h3>
@@ -57,16 +59,18 @@ export default function MedSmart(){
                         <span class='mx-1 md:mx-2 rounded-full w-fit px-3 md:px-6 py-2 text-white tracking-wide bg-cyan-600 flex items-center justify-center text-xs md:text-sm'>Test</span>
                     </div>
                 </div>
+                {/* Qualitative Research */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Qualitative Research:</h3>
                     <p class='font-serif text-base md:text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p>
                 </div>
+                {/* Key findings */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Key Findings</h3>
                     <div>
-                        <p class='font-serif'>• Users prefer to get notifications via banners, but with the option to set alarms if necessary </p>
-                        <p class='font-serif'>• Users want that dash board to feature all the medications they have logged/take, with the ability to learn more if wanted </p>
-                        <p class='font-serif'>• Users would like medications with risky drug interactions to be prominently shown or flagged </p>
+                        <p class='font-serif mb-2 md:mb-1'>• Users prefer to get notifications via banners, but with the option to set alarms if necessary </p>
+                        <p class='font-serif mb-2 md:mb-1'>• Users want that dash board to feature all the medications they have logged/take, with the ability to learn more if wanted </p>
+                        <p class='font-serif mb-2 md:mb-1'>• Users would like medications with risky drug interactions to be prominently shown or flagged </p>
                     </div>
                 </div>
                 {/* Quantitative Research */}
@@ -74,17 +78,17 @@ export default function MedSmart(){
                     <h3 class='mr-2 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Quantitative Research:</h3>
                     <p class='pb-2 font-serif text-lg'>Here are the results of a survey I conducted to gather insights about users' needs. </p>
                     <div class='w-full grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4'>
-                        <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>68% </span><p class='tracking-wider text-zinc-50'> take medication on an ongoing basis </p>
+                        <div class='px-6 text-xs md:text-sm tracking-wide bg-cyan-600 p-3 md:items-center md:justify-center rounded-sm flex'>
+                            <span class='font-bold mr-2 text-white text-sm md:text-lg '>68% </span><p class='tracking-wider text-zinc-50'> take medication on an ongoing basis </p>
                         </div>
-                        <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>89% </span><p class='tracking-wider text-zinc-50'> want reminders to take their meds</p>
+                        <div class='px-6 text-xs md:text-sm tracking-wide bg-cyan-600 p-3 md:items-center md:justify-center rounded-sm flex'>
+                            <span class='font-bold mr-2 text-white text-sm md:text-lg '>89% </span><p class='tracking-wider text-zinc-50'> want reminders to take their meds</p>
                         </div>
-                        <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>57% </span><p class='tracking-wider text-zinc-50'> are unaware of side effects </p>
+                        <div class='px-6 text-xs md:text-sm tracking-wide bg-cyan-600 p-3 md:items-center md:justify-center rounded-sm flex'>
+                            <span class='font-bold mr-2 text-white text-sm md:text-lg '>57% </span><p class='tracking-wider text-zinc-50'> are unaware of side effects </p>
                         </div>
-                        <div class='px-6 text-sm tracking-wide bg-cyan-600 p-3 items-center justify-center rounded-sm flex'>
-                            <span class='font-bold mr-2 text-cyan-600 text-white text-base md:text-lg '>80% </span><p class='tracking-wider text-zinc-50'> often miss a dose</p>
+                        <div class='px-6 text-xs md:text-sm tracking-wide bg-cyan-600 p-3 md:items-center md:justify-center rounded-sm flex'>
+                            <span class='font-bold mr-2 text-white text-sm md:text-lg '>80% </span><p class='tracking-wider text-zinc-50'> often miss a dose</p>
                         </div>
                     </div>
                 </div>
@@ -114,34 +118,33 @@ export default function MedSmart(){
                             <p class='mb-4 leading-5 font-serif'>Get daily reminders to take her medication and educate herself on how the drugs she's taking affect her health </p>
                         </div>
                     </div>
-                    {/* <p class='font-serif text-lg'>A semi-structured remote interview was conducted with 5 participants that were recruited.  Although participants had differing ways of remembering to take their medication, all were enthusiastic about using a mobile application to get reminders and learn more about drug interactions and side effects. </p> */}
                 </div>
                 {/* Empathy Map */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Empathy Map</h3>
-                    <div class='rounded-md w-full h-[200px] md:h-[425px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartMap})` }}></div>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartMap}/>
                 </div>
                 {/* User Flow */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>User Flow</h3>
-                    <div class='rounded-md w-full h-[28px] md:h-[720px] bg-cover bg-center' style={{ backgroundImage:`url(${userFlow})` }}></div>
+                    <img class='w-full max-w-7xl rounded-md' src={userFlow}/>
                 </div>
                 {/* Lo Fi Wireframes */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Lo-Fi Wireframes</h3>
-                    <div class='rounded-md w-full h-[400px] md:h-[1050px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartWireframe})` }}></div>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartWireframe}/>
                 </div>
                 {/* Hi Fi Wireframes */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Hi-Fi Wireframes</h3>
-                    <div class='rounded-md w-full h-[300px] md:h-[500px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype1})` }}></div>
-                    <div class='rounded-md w-full h-[250px] md:h-[600px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype2})` }}></div>
-                    <div class='rounded-md w-full h-[200px] md:h-[500px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype3})` }}></div>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartPrototype1}/>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartPrototype2}/>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartPrototype3}/>
                 </div>
                 {/* Prototype */}
                 <div class='pb-8 flex flex-col'>
                     <h3 class='mr-2 mb-2 md:mb-4 text-cyan-600 text-sm md:text-base font-bold uppercase tracking-widest'>Prototype</h3>
-                    <div class='rounded-md w-full h-[300px] md:h-[850px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartPrototype4})` }}></div>
+                    <img class='w-full max-w-7xl rounded-md' src={medsmartPrototype4}/>
                 </div>
             </div>
             <ToTop bgColor='#0891b2' color='#FFFFFF'/>
