@@ -53,7 +53,7 @@ export default function Fins(){
                 </div>
                 <div class='pb-4'>
                     <h3 class='text-blue-900 text-sm md:text-base  font-bold uppercase tracking-widest mb-1'>The Product:</h3>
-                    <p class='font-serif text-base md:text-lg leading-6 '>Fins is an online Seafood market that offers same-day delivery of the highest quality seafood, sourced from small-boat fishermen, straight to your door. Our typical client is a career professional between 25-65. The goal of this project is to make ordering seafood fast, easy, and reliable. </p>
+                    <p class='font-serif text-base md:text-lg leading-6 '>Fins is an online Seafood market that offers same-day delivery of the highest quality seafood, sourced from small-boat fishermen, straight to your door. The typical client is a career professional between 25-65. The goal of this project is to make ordering seafood fast, easy, and reliable. </p>
                 </div>
                {/* Problem/ Goals */}
                 <div class='flex flex-col md:flex-row w-full pb-5'>

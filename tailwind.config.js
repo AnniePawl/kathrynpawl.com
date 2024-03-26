@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     fontFamily: {
       'serif': ['Cormorant Infant'],
+      'roboto': ['Roboto'],
+      'oswald':['Oswald'],
+      'psans':['Public Sans'],
       
     }
   },

@@ -3,7 +3,7 @@ import mailIcon from './assets/gmail.png'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 
-export default function Header(){
+export default function HomeHeader(){
     const location = useLocation();
     const pathLocation = location.pathname
     
@@ -25,14 +25,31 @@ export default function Header(){
     return(
         <div>
             {/* Header */}
-            <div className={` ${pathLocation=="/"?"transparent":"bg-white"} z-[101] px-4 md:px-10 h-14 w-screen fixed top-0 left-0 flex items-center justify-between `} >
-                <div  onClick={closeMenu} className={`${pathLocation==='/'?"text-zinc-50":"text-zinc-800"} text-base md:text-base font-medium uppercase tracking-wider  hover:cursor-default `} ><Link to="/">Kathryn Pawl</Link></div>
-                
-                <div onClick={openMenu}  class='flex flex-col'>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `}     ></div>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
-                </div>
+            <div className={` ${pathLocation=="/"?"transparent":"bg-white"} z-[101] px-4 md:px-20 h-14 w-screen fixed top-0 left-0 `} >
+                <div class='w-full flex justify-between items-center pt-12'>
+					<div  onClick={closeMenu} className={`${pathLocation==='/'?"text-zinc-50":"text-zinc-800"} text-base md:text-2xl font-bold uppercase tracking-wider  hover:cursor-default `} ><Link to="/"></Link></div>
+					<div class='flex items-center'>
+						{/* <div class='mr-6 flex'>
+							<div class='border-zinc-50 border-2 h-6 w-6 rounded-full bg-yellow-500 mr-6'></div>
+							<div class='border-zinc-50 border-2 h-6 w-6 rounded-full bg-teal-500 mr-6'></div>
+							<div class='border-zinc-50 border-2 h-6 w-6 rounded-full bg-red-500 mr-6'></div>
+						</div> */}
+						<div class='flex'>
+							<p class='transition-colors hover:cursor-pointer hover:text-zinc-800 text-zinc-50 text-lg font-medium mr-8 font-roboto tracking-widest '>Case Studies</p>
+							<p class='transition-colors hover:cursor-pointer hover:text-zinc-800 text-zinc-50 text-lg font-medium mr-8 font-roboto tracking-widest '>Graphic Design</p>
+							<p class='transition-colors hover:cursor-pointer hover:text-zinc-800 text-zinc-50 text-lg font-medium mr-8 font-roboto tracking-widest '>Product Design</p>
+							<a href="mailto:kathrynpawl@gmail.com"><p class='transition-colors hover:cursor-pointer hover:text-zinc-800 text-zinc-50 text-lg font-medium mr-8 font-roboto tracking-widest '>Contact</p></a>
+
+						</div>
+						{/* <div onClick={openMenu}  class='flex flex-col'>
+							<div className={`h-[3px] w-6 rounded-full mb-[5px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `}     ></div>
+							<div className={`h-[3px] w-6 rounded-full mb-[5px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
+							<div className={`h-[3px] w-6 rounded-full mb-[0px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
+						</div> */}
+
+					</div>
+				</div>
+               
             </div>
             {/* Slideout Menu  */}
             <div  className={` menu transition-all z-[100] h-screen w-full md:w-[250px] bg-white fixed right-0 top-0 ${isOpen ? "" : " hidden"}`} >

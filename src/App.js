@@ -1,7 +1,7 @@
 
 import Header from './Header'
 import Home from './Home/Home'
-
+import Projects from './Home/Projects';
 // Graphic Design Links
 import Shapes from './GraphicDesign/Shapes';
 import Patterns from './GraphicDesign/Patterns';
@@ -32,8 +32,9 @@ export default function App() {
     return (
       
     <Router>
-        <Header/>
+        {/* <Header/> */}
         <Routes>
+            <Route path="/projects" element={<Projects/>} />
             <Route exact path="/" element={<Home />} />
             {/* Graphic Design */}
             <Route path="/shapes" element={<Shapes/>} />
