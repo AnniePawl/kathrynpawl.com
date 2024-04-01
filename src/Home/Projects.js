@@ -1,178 +1,55 @@
 import './landing.scss';
 import { Link } from 'react-router-dom';
 import React, { useEffect, useRef, useState } from "react";
+import ProjectCard from './ProjectCard';
 import shapesCover from '../assets/projects/shapes-cover.png'
 import patternCover from '../assets/projects/pattern-cover.jpeg'
 import illustrationsCover from '../assets/projects/illustrations-cover.jpeg'
 import textCover from '../assets/projects/text-cover.jpeg'
-import cs1 from '../assets/studies/cs-1.jpeg'
 import cs2 from '../assets/studies/cs-2.jpeg'
 import cs3 from '../assets/studies/cs-3.jpeg'
-import cs4 from '../assets/studies/cs-4.jpeg'
-import cs5 from '../assets/studies/cs-5.jpeg'
-import cs6 from '../assets/studies/cs-6.jpeg'
+import flowerbarcover from '../assets/studies/flowerbar/flowerbar-cover.jpeg'
+import finsLaptop from '../assets/projects/fins-laptop.jpeg'
+import calcumon from '../assets/projects/calcumon.jpeg'
 import product1 from '../assets/product/product-1.jpeg'
-import product2 from '../assets/product/product-2.jpeg'
-import product3 from '../assets/product/product-3.jpeg'
-import medsmartHero from '../assets/studies/medsmart/medsmart-hero.jpeg'
+import thumbsCover from '../assets/product/thumbs/thumbs-cover.png'
+import carton1 from '../assets/product/milkcarton1.png'
+import weather1 from '../assets/product/weather/weather-light.jpeg'
+
 export default function Projects(){
-
- 
-
-
 
 return(
 
-  
     <div id='projects' className='bg-zinc-50 h-fit w-screen relative flex  justify-center flex-col z-[10] flex'>
-    {/* CASE STUDIES */}
-    <div class='w-full px-24 pt-20 '>
-        <h2 class='mb-3 text-center text-zinc-800  text-base md:text-3xl font-bold uppercase tracking-widest '>Case Studies</h2>
-        <div class=' mb-20 w-full h-[2px] bg-zinc-800'></div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-        <Link to="/barko">
-            <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${cs3})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Barko Case Study</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Dog Walking App</span>
-                        <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </Link>
-         
-            <Link to="/fins">
-            <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${cs1})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] uppercase tracking-widest text-zinc-900 '>Fins Case Study</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Fish Market Website</span>
-                        <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute. </p>
-                    </div>
-                </div>
-            </Link>
-    
-            <Link to="/medsmart">
-                <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${cs2})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>MEDSMART UX Case Study</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Medication Reminder App</span>
-                        <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </Link>
-            <Link to="/flowerbar">
-                <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${cs4})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Flower Bar</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Flower Shop App</span>
-                        <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                </div>
-            </Link>
-            
-        </div>
-        
-        
-     
-       
-        {/* GRAPHIC DESIGN */}
-        <h2 class='pt-24 mb-3 text-center text-zinc-800  text-base md:text-3xl font-bold uppercase tracking-widest '>Graphic Design</h2>
-        <div class=' mb-20 w-full h-[2px] bg-zinc-800'></div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-            {/* Shapes */}
-            <Link to="/shapes">
-                <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${shapesCover})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Shapes</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Flower Shop App</span>
-                        {/* <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                    </div>
-                </div>
-            </Link> 
-            {/* Patterns */}
-            <Link to="/patterns">
-                <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${patternCover})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Patterns</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Flower Shop App</span>
-                        {/* <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                    </div>
-                </div>
-            </Link>  
-            {/* Typography */}
-            <Link to="/typography">
-            <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${textCover})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Typography</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Flower Shop App</span>
-                        {/* <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                    </div>
-                </div>
-            </Link>
-            {/* Illustrations*/}
-            <Link to="/illustrations">
-            <div class='flex flex-col space-between'>
-                    <div>
-                        <div class='flex self-center rounded-sm w-full  h-[650px] w-full  bg-cover bg-center p-6' style={{ backgroundImage:`url(${illustrationsCover})` }}></div>
-                        <h2 class='pt-5 font-roboto flex text-base md:text-xl font-[700] tracking-widest text-zinc-900 '>Illustrations</h2>
-                        <span class='text-lg tracking-wide text-zinc-800'>Flower Shop App</span>
-                        {/* <p class='mt-4 mb-0 text-lg tracking-wide font-roboto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-                    </div>
-                </div>
-            </Link>
-        </div>
-      
-        {/* Product Design */}
-        <h2 class='pt-24 mb-3 text-center text-zinc-800  text-base md:text-3xl font-bold uppercase tracking-widest'>Product Design</h2>
-        <div class=' mb-20 w-full h-[2px] bg-zinc-800'></div>
-        <div class='flex mb-12 max-w-7xl overflow-auto'>
-            {/* Calculator */}
-            <Link to='/calculator'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col  m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product1})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Calculator</h2>
-                        <p class=' text-xs'></p>
-                    </div>
-                </div>  
-            </Link> 
-            {/* Weather App*/}
-            <Link to='/weatherapp'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='opacity-80 transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product2})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Weather App</h2>
-                        <p class=' text-xs'> </p>
-                    </div>
-                </div> 
-            </Link> 
-            {/* Mais Freida*/}
-            <Link to='/maisfrida'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${cs5})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Mais Frida</h2>
-                        <p class=' text-xs'></p>
-                    </div>
-                </div>
-            </Link>
-            {/* Package Design*/}
-            <Link to='/packagedesign'>
-                <div class='hover:scale-[.985] transition-all duration-[.4s] flex flex-col m-3'>
-                    <div className='transition-all duration-[1s] flex items-center justify-center relative cover shapes-cover h-44 w-44 sm:h-48 sm:w-48  md:h-72 md:w-72 bg-center bg-cover transition-all bg-red-600 '  style={{ backgroundImage:`url(${product3})` }}></div>
-                    <div class='py-3 w-fit md:w-72'>
-                        <h2 class='font-bold text-sm uppercase mb-1'>Package Design</h2>
-                        <p class=' text-xs'> </p>
-                    </div>
-                </div>  
-            </Link>
-        </div>
+        <div class='w-full px-6 md:px-24 pt-16 pb-20 '>
+            {/* CASE STUDIES */}
+            <h2 class='mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Case Studies</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
+                <Link to="/barko"> <ProjectCard h1={'Barko'} h2={''} p={'A one-stop mobile app for pet owners to easily find and book trustworthy dog walkers located near them. My role for this project was to conduct market research, address user pain points and deliver a prototype. '} img={cs3}/></Link>
+                <Link to="/fins"> <ProjectCard h1={'Fins'} h2={''} p={'An online Seafood market that offers same-day delivery of the highest quality seafood, sourced from small-boat fishermen. The goal was to make ordering seafood fast, simple, transparent and reliable. '} img={finsLaptop}/></Link>
+                <Link to="/flowerbar"> <ProjectCard h1={'Flower Bar'} h2={''} p={'A redesign of an existing online flower shop. My aim was to create a more a more streamlined web app that allows customers to browse a visual flower menu, customize selections, pin favorite items, and seamlessly check out for pick-up or delivery.   '} img={flowerbarcover}/></Link>
+                <Link to="/medsmart"> <ProjectCard h1={'MEDSMART'} h2={''} p={'A mobile app that I designed to help people stay on top of their medication schedules, while also providing the opportunity for users to learn about possible drug interactions, health benefits, and side effect of the medications they’re taking.'} img={cs2}/></Link>
+            </div>
+            {/* Graphic Design */}
+            <h2 id='graphicDesign' class='mt-20 mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Graphic Design</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
+                <Link to="/shapes"> <ProjectCard h1={'Shapes'} h2={''} p={'An experiment in ‘impossible shapes,’ which are drawn to the rules of perspective but cannot actually be constructed. I practiced using colors and angles to create 2D figures that create the illusion of 3D objects. '} img={shapesCover}/></Link>
+                <Link to="/patterns"> <ProjectCard h1={'Patterns'} h2={''} p={'Practice with the pattern editing mode in Adobe Illustrator. I experimented with  contrast, repetition, white space, hierarchy and proportion to create unique swatches for various applications. '} img={patternCover}/></Link>
+                <Link to="/typography"> <ProjectCard h1={'Typography'} h2={''} p={'An exercise in manipulating text through various techniques. I played with effects like shadow, perspective, and texture. Learning to create fun text animations like the glitch effect. '} img={textCover}/></Link>
+                <Link to="/illustrations"> <ProjectCard h1={'Illustrations'} h2={''} p={'A showcase of some freehand illustrations I made with Illustrator and Procreate to familiarize myself with each softwares object and effect tools. '} img={illustrationsCover}/></Link>
+            </div>
+            {/* Product Design */}
+            <h2 id='productDesign' class='mt-20 mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Product  Design</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
+                {/* <Link to="/"> <ProjectCard h1={'Thumbs'} h2={''} p={'Iterations of a design for a web extension that can embed onto any webpage, allowing users to like or dislike any particular product or content. '} img={thumbsCover}/></Link> */}
+                {/* <Link to="/calculator"> <ProjectCard h1={'Mais Frida'} h2={''} p={''} img={product1}/></Link>
+                <Link to="/calcumon"> <ProjectCard h1={'Calcumon'} h2={'Web Application'} p={''} img={calcumon}/></Link> */}
+                <Link to="/packagedesign"> <ProjectCard h1={'Package Design'} h2={''} p={'The beginning stages of exploring my interest in package design. I’ve been accompanying online courses with hands on practice applying 2D graphics from Photoshop onto 3D models in Dimension. '} img={carton1}/></Link>
+                <Link to="/widgets"> <ProjectCard h1={'Mobile Widgets'} h2={''} p={'A selection of mini applications meant to carry out small, specific tasks. I have designed a steamlined weather app with light and dark mode, and a retro calculator. '} img={weather1}/></Link>
+            </div>
         </div>
        
     </div>

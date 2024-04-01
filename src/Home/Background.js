@@ -14,6 +14,9 @@ import './landing.scss'
 
 export default function Background(){
     return(
-        <div className='bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg7})` }} ></div>
-    )
+        <div>
+            <div className='hidden md:flex bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg7})` }} ></div>
+            <div className='md:hidden bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg3})` }} ></div>
+        </div>
+        )
 }

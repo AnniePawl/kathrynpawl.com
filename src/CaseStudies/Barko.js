@@ -1,5 +1,6 @@
 import React from "react";
 import ToTop from "../ToTop";
+import Header from '../Header'
 import barkoHero2 from '../assets/studies/barko/barko-cover2.jpeg'
 import barkoHero3 from '../assets/studies/cs-2.jpeg'
 import barkoColors from '../assets/studies/barko/barko-colors.png'
@@ -24,7 +25,9 @@ export default function Barko(){
 
 
     return(
-        <div class='bg-white h-fit w-screen flex flex-col items-center justify-center py-24'>
+       
+        <div class='bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-24'>
+            <Header/>
             <div class='w-full max-w-3xl flex flex-col items-center'>
                 <h2 class='flex text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Barko Case Study</h2>
                 <span class='pb-8 font-bold tracking-widest uppercase text-sm text-[#569b3e]'>Mobile Dog Walking App</span>
@@ -39,7 +42,7 @@ export default function Barko(){
                 {/* My Role */}
                 <div class='pb-8'>
                     <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-1'>My Role:</h3>
-                    <p class='text-sm md:text-base text-zinc-600 leading-5'>My role on the project was to conduct market and user research, and based on those findings, deliver a design concept that would form the whole movie service altogether. In this case study, you will see how I went from the discovery phase to ideation, iteration, and solution delivery using user research, prototyping, and design solution. </p>
+                    <p class='text-sm md:text-base text-zinc-600 leading-5'>My role on the project was to conduct market and user research, and based on those findings, deliver a design concept that would form the whole mobile service altogether. In this case study, you will see how I went from the discovery phase to ideation, iteration, and solution delivery using user research, prototyping, and design solution. </p>
                 </div>
                 {/* The Product */}
                 <div class='pb-8'>

@@ -1,5 +1,6 @@
 import React from "react";
 import ToTop from "../ToTop";
+import Header from "../Header";
 import medsmartHero from '../assets/studies/medsmart/medsmart-hero.jpeg'
 import medsmartAvatar from '../assets/studies/medsmart/medsmart-avatar.png'
 import medsmartMap from '../assets/studies/medsmart/medsmart-empathymap.png'
@@ -19,7 +20,8 @@ export default function MedSmart(){
 
     return(
         <div class='bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-28'>
-            <div class='w-full max-w-5xl flex flex-col items-center'>
+          <Header/>
+           <div class='w-full max-w-5xl flex flex-col items-center'>
                 <h2 class='flex text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Medsmart UX Case Study</h2>
                 <span class='pb-4 font-bold uppercase text-sm tracking-wide text-cyan-600'>Medication Reminder App</span>
                 <div class='rounded-md w-full h-[200px] md:h-[350px] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartHero})` }}></div>

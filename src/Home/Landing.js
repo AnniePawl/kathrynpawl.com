@@ -9,22 +9,18 @@ export default function Landing(){
  
     return(
         <div class='landing-bg h-screen w-screen overlow-hidden z-[10] flex items-center relative '>
+          
           <HomeHeader/>
-            <div class='flex flex-col px-20 h-fit absolute bottom-14'>
-                <p class='text-zinc-50 font-[700] uppercase tracking-wider text-2xl md:text-9xl max-w-8xl mb-4 '>Kathryn Pawl </p>
-                <p class='mt-1 ml-1 font-roboto text-zinc-50  uppercase font-light text-2xl md:text-5xl max-w-9xl mb-5 '>UX Design | UX Research  </p>
-                <p class='ml-2 font-roboto font-medium text-zinc-50 tracking-wider text-lg md:text-3xl max-w-9xl mb-4 '>Seattle, WA </p>
-               
+            <div class='flex flex-col px-8 md:px-20 h-fit absolute bottom-14'>
+                <p class='text-zinc-50 font-[700] uppercase tracking-wider text-3xl md:text-7xl max-w-8xl md:mb-3 '>Kathryn Pawl </p>
+                <p class='md:ml-1 font-roboto text-zinc-50  uppercase font-light text-lg md:text-3xl max-w-9xl md:mb-2 '>UX Design | UX Research  </p>
+                <p class='md:ml-1 font-roboto font-medium text-zinc-50 tracking-wider text-sm md:text-xl max-w-9xl '>Seattle, WA </p>
             </div>
          
             <div class='px-4 md:px-20 w-full flex justify-between items-center absolute bottom-20'>
                 <p class='text-2xl text-zinc-800 uppercase font-bold tracking-wide '></p>
-                <HashLink smooth to="/#projects">
-                    <div class='flex flex-col items-center'>
-                        {/* <img  class='hover:scale-[.7] transition-all scale-[.6]' src={cow}></img> */}
-                         <p class='hover:scale-[.9] transition-all w-fit rounded-sm text-sm text-zinc-50 py-2 px-5 border-2 tracking-wider border-zinc-50 uppercase'>Recent Work</p>
-                        {/* <p class='text-xl animate-bounce text-white'>↓</p> */}
-                    </div>
+                <HashLink class='hidden md:flex' smooth to="/#projects">
+                    <p class='hover:scale-[.9] transition-all w-fit rounded-sm text-xs text-zinc-50 py-2 px-5 border-2 tracking-wider border-zinc-50 uppercase'>Recent Work</p>
                 </HashLink>
                 
                 

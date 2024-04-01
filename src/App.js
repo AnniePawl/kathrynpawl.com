@@ -13,10 +13,11 @@ import Barko from './CaseStudies/Barko';
 import FlowerBar from './CaseStudies/FlowerBar'
 import MedSmart from './CaseStudies/MedSmart';
 // Product Design 
-import Calculator from './ProductDesign/Calculator';
+import Widgets from './ProductDesign/Widgets';
 import MaisFrida from './ProductDesign/MaisFrida';
 import PackageDesign from './ProductDesign/PackageDesign';
 import WeatherApp from './ProductDesign/WeatherApp';
+import Calcumon from './ProductDesign/Calcumon';
 
 import {
  
@@ -47,7 +48,8 @@ export default function App() {
             <Route path="/flowerbar" element={<FlowerBar/>}/>
             <Route path="/medsmart" element={<MedSmart/>}/>
             {/* Product Design Links */}
-            <Route path="/calculator" element={<Calculator/>}/>
+            <Route path="/widgets" element={<Widgets/>}/>
+            <Route path="/calcumon" element={<Calcumon/>}/>
             <Route path="/weatherapp" element={<WeatherApp/>}/>
             <Route path="/maisfrida" element={<MaisFrida/>}/>
             <Route path="/packagedesign" element={<PackageDesign/>}/>

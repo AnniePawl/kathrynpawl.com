@@ -25,41 +25,42 @@ export default function Header(){
     return(
         <div>
             {/* Header */}
-            <div className={` ${pathLocation=="/"?"transparent":"bg-white"} z-[101] px-4 md:px-10 h-14 w-screen fixed top-0 left-0 flex items-center justify-between `} >
-                <div  onClick={closeMenu} className={`${pathLocation==='/'?"text-zinc-50":"text-zinc-800"} text-base md:text-base font-medium uppercase tracking-wider  hover:cursor-default `} ><Link to="/">Kathryn Pawl</Link></div>
+            <div className=' bg-zinc-50 z-[101] px-4 md:px-10 h-14 w-screen fixed top-0 left-0 flex items-center justify-between ' >
+                <div  onClick={closeMenu} className={`${pathLocation==='/'?"text-zinc-50":"text-zinc-800"} transition-colors hover:text-zinc-500 text-base md:text-base font-medium uppercase tracking-wider  hover:cursor-default `} ><Link to="/">Kathryn Pawl</Link></div>
                 
                 <div onClick={openMenu}  class='flex flex-col'>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `}     ></div>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
-                    <div className={`h-[2px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
+                    <div className={`h-[2.1px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `}     ></div>
+                    <div className={`h-[2.1px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
+                    <div className={`h-[2.1px] w-6 rounded-full mb-[4px] ${pathLocation==='/'?"bg-white":"bg-zinc-800"}  `} ></div>
                 </div>
             </div>
             {/* Slideout Menu  */}
-            <div  className={` menu transition-all z-[100] h-screen w-full md:w-[250px] bg-white fixed right-0 top-0 ${isOpen ? "" : " hidden"}`} >
+            <div  className={` menu transition-all z-[100] h-screen w-full md:w-[275px] bg-zinc-50 fixed right-0 top-0 ${isOpen ? "" : " hidden"}`} >
                {/* <div onClick={closeMenu} class='z-[1000] text-zinc-400 font-light text-4xl absolute hover:text-rose-600 top-1 right-5'>x</div> */}
                 <ul class='px-7 md:px-8 py-20'>
                     <div class='pb-8'>
                     <li class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Graphic Design</li>
-                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-sm'><Link to="/shapes">Shapes</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-sm'><Link to="/patterns">Patterns</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-sm'><Link to="/typography">Typography</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-green-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to="/illustrations">Illustrations</Link></li>
+                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/shapes">Shapes</Link></li>
+                        <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/patterns">Patterns</Link></li>
+                        <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/typography">Typography</Link></li>
+                        <li onClick={openMenu} class='tracking-tight hover:text-green-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/illustrations">Illustrations</Link></li>
                     </div>
                     <div class='pb-8'>
                         <li onClick={openMenu} class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Case Studies</li>
-                        <li onClick={openMenu} class='mt-1 hover:text-red-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to='/fins'>Fin's Fish Market</Link></li>
-                        <li onClick={openMenu} class='hover:text-green-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to='/barko'>Barko</Link></li>
-                        <li onClick={openMenu} class='hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to='/flowerbar'>The Flower Bar</Link></li>
-                        <li onClick={openMenu} class='hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to='/medsmart'>Med Smart</Link></li>
+                        <li onClick={openMenu} class='mt-1 hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to='/fins'>Fin's Fish Market</Link></li>
+                        <li onClick={openMenu} class='hover:text-green-500 hover:cursor-default transition-colors text-base md:text-base '><Link to='/barko'>Barko</Link></li>
+                        <li onClick={openMenu} class='hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base '><Link to='/flowerbar'>The Flower Bar</Link></li>
+                        <li onClick={openMenu} class='hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base '><Link to='/medsmart'>Med Smart</Link></li>
                         
                     </div>
 
                     <div class='pb-8'>
                         <li onClick={openMenu} class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Product Design</li>
-                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to="/calculator">Calculator</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to="/weatherapp">Weather App</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-sm '><Link to="/packagedesign">Package Design</Link></li>
-                        <li onClick={openMenu} class='hover:text-purple-500 hover:cursor-default transition-colors text-base md:text-sm'><Link to="/maisfrida">Mais Frida</Link></li>
+                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calcumon">Calcumon</Link></li>
+                        <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/weatherapp">Weather App</Link></li>
+                        <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/packagedesign">Package Design</Link></li>
+                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calculator">Calculator</Link></li>
+                        <li onClick={openMenu} class='hover:text-purple-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/maisfrida">Mais Frida</Link></li>
                     </div>
                     {/* <div class='pb-20'>
                         <span class='font-bold '>Product Design</span>

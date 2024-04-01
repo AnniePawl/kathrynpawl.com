@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import Header from "../Header";
 import medsmartAvatar from '../assets/studies/medsmart/medsmart-avatar.png';
 import barkoAvatar from '../assets/studies/barko/barko-avatar.png';
 import sitemap from '../assets/studies/fins/fins-site-map.png';
@@ -38,6 +39,7 @@ export default function Fins(){
 
     return(
         <div class='relative bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-24'>
+            <Header/>
             <div class='w-full max-w-5xl flex flex-col items-center'>
                 <h2 class='flex pb-6 md:pb-8 text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Fin's Fish Market Case Study</h2>
                 <div class='w-full md:w-full h-[200px] md:h-[500px] bg-cover bg-top' style={{ backgroundImage:`url(${finshero})` }}></div>
