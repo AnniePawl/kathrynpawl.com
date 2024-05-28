@@ -12,6 +12,7 @@ export default function Home(){
             <Projects/>
             {/* <Footer/> */}
             {/* <Contact/> */}
+            <Footer/>
             <Background/>
         </div>
     )

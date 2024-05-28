@@ -8,7 +8,7 @@ import Home from './Home';
 export default function Landing(){
  
     return(
-        <div class='landing-bg h-screen w-screen overlow-hidden z-[10] flex items-center relative '>
+        <div class='landing-bg h-[93vh] md:h-screen w-screen overlow-hidden z-[10] flex items-center relative '>
           
           <HomeHeader/>
             <div class='flex flex-col px-8 md:px-20 h-fit absolute bottom-14'>

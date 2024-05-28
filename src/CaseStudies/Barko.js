@@ -1,6 +1,7 @@
 import React from "react";
 import ToTop from "../ToTop";
 import Header from '../Header'
+import cs3 from '../assets/studies/cs-3.jpeg'
 import barkoHero2 from '../assets/studies/barko/barko-cover2.jpeg'
 import barkoHero3 from '../assets/studies/cs-2.jpeg'
 import barkoColors from '../assets/studies/barko/barko-colors.png'
@@ -31,7 +32,7 @@ export default function Barko(){
             <div class='w-full max-w-3xl flex flex-col items-center'>
                 <h2 class='flex text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Barko Case Study</h2>
                 <span class='pb-8 font-bold tracking-widest uppercase text-sm text-[#569b3e]'>Mobile Dog Walking App</span>
-                <div class='md:hidden w-full md:w-full h-[375px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoHero3})` }}></div>
+                <div class='md:hidden w-full md:w-full h-[375px] bg-cover bg-top' style={{ backgroundImage:`url(${cs3})` }}></div>
                 <div class='hidden md:flex w-full md:w-full h-[375px] bg-cover bg-top' style={{ backgroundImage:`url(${barkoHero2})` }}></div>
             </div>
             <div class='px-5 w-full max-w-5xl flex flex-col items-center pt-10'>

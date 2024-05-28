@@ -8,13 +8,15 @@ import illustrationsCover from '../assets/projects/illustrations-cover.jpeg'
 import textCover from '../assets/projects/text-cover.jpeg'
 import cs2 from '../assets/studies/cs-2.jpeg'
 import cs3 from '../assets/studies/cs-3.jpeg'
-import flowerbarcover from '../assets/studies/flowerbar/flowerbar-cover.jpeg'
+import flowerbarcover from '../assets/studies/flowerbar/flowerbarcover.jpeg'
 import finsLaptop from '../assets/projects/fins-laptop.jpeg'
 import calcumon from '../assets/projects/calcumon.jpeg'
 import product1 from '../assets/product/product-1.jpeg'
 import thumbsCover from '../assets/product/thumbs/thumbs-cover.png'
 import carton1 from '../assets/product/milkcarton1.png'
 import weather1 from '../assets/product/weather/weather-light.jpeg'
+import calcumonHero from '../assets/product/calcumon/calcumon-cover.png'
+
 
 export default function Projects(){
 
@@ -44,9 +46,9 @@ return(
             <h2 id='productDesign' class='mt-20 mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Product  Design</h2>
             <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-                {/* <Link to="/"> <ProjectCard h1={'Thumbs'} h2={''} p={'Iterations of a design for a web extension that can embed onto any webpage, allowing users to like or dislike any particular product or content. '} img={thumbsCover}/></Link> */}
-                {/* <Link to="/calculator"> <ProjectCard h1={'Mais Frida'} h2={''} p={''} img={product1}/></Link>
-                <Link to="/calcumon"> <ProjectCard h1={'Calcumon'} h2={'Web Application'} p={''} img={calcumon}/></Link> */}
+                <Link to="/thumbs"> <ProjectCard h1={'Thumbs'} h2={''} p={'Iterations of a design for a web extension that can embed onto any webpage, allowing users to like or dislike any particular product or content. '} img={thumbsCover}/></Link>
+                <Link to="/calcumon"> <ProjectCard h1={'Calcumon'} h2={''} p={'Prototypes for an interactive online learning experience focused on math skills. The platformed was designed with young students in mind, featuring a friendly UI and fun characters.'} img={calcumonHero}/></Link> 
+                {/* <Link to="/MaisFrida"> <ProjectCard h1={'Mais Frida'} h2={''} p={''} img={product1}/></Link> */}
                 <Link to="/packagedesign"> <ProjectCard h1={'Package Design'} h2={''} p={'The beginning stages of exploring my interest in package design. I’ve been accompanying online courses with hands on practice applying 2D graphics from Photoshop onto 3D models in Dimension. '} img={carton1}/></Link>
                 <Link to="/widgets"> <ProjectCard h1={'Mobile Widgets'} h2={''} p={'A selection of mini applications meant to carry out small, specific tasks. I have designed a steamlined weather app with light and dark mode, and a retro calculator. '} img={weather1}/></Link>
             </div>

@@ -14,9 +14,9 @@ import FlowerBar from './CaseStudies/FlowerBar'
 import MedSmart from './CaseStudies/MedSmart';
 // Product Design 
 import Widgets from './ProductDesign/Widgets';
+import Thumbs from './ProductDesign/Thumbs';
 import MaisFrida from './ProductDesign/MaisFrida';
 import PackageDesign from './ProductDesign/PackageDesign';
-import WeatherApp from './ProductDesign/WeatherApp';
 import Calcumon from './ProductDesign/Calcumon';
 
 import {
@@ -49,8 +49,8 @@ export default function App() {
             <Route path="/medsmart" element={<MedSmart/>}/>
             {/* Product Design Links */}
             <Route path="/widgets" element={<Widgets/>}/>
+            <Route path="/thumbs" element={<Thumbs/>}/>
             <Route path="/calcumon" element={<Calcumon/>}/>
-            <Route path="/weatherapp" element={<WeatherApp/>}/>
             <Route path="/maisfrida" element={<MaisFrida/>}/>
             <Route path="/packagedesign" element={<PackageDesign/>}/>
             

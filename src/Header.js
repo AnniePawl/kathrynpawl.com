@@ -39,7 +39,7 @@ export default function Header(){
                {/* <div onClick={closeMenu} class='z-[1000] text-zinc-400 font-light text-4xl absolute hover:text-rose-600 top-1 right-5'>x</div> */}
                 <ul class='px-7 md:px-8 py-20'>
                     <div class='pb-8'>
-                    <li class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Graphic Design</li>
+                        <li class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Graphic Design</li>
                         <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/shapes">Shapes</Link></li>
                         <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/patterns">Patterns</Link></li>
                         <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/typography">Typography</Link></li>
