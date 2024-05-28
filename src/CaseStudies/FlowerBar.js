@@ -40,7 +40,7 @@ export default function FlowerBar(){
                 {/* The Product  */}
                 <div class='pb-5'>
                     <h3 class='font-serif text-lime-600 text-base md:text-lg pb-2 font-bold uppercase tracking-widest '>The Product</h3>
-                    <p class='font-serif text-lg pb-6'>The Flower Bar is a top source shop for floral arrangements and extraordinary plants, offering same-day delivery throughout Westchester, Fairfield Counties and NYC. The Flower Bar wants to research, design and develop a new and improved web app for their business. Their target audience consists primarily of local adults and business staff who require same-day flower delivery services, host large special occasion events, intimate dinners, or simply seeking sending a small gesture of love.  </p>
+                    <p class='font-serif text-sm md:text-lg pb-6'>The Flower Bar is a top source shop for floral arrangements and extraordinary plants, offering same-day delivery throughout Westchester, Fairfield Counties and NYC. The Flower Bar wants to research, design and develop a new and improved web app for their business. Their target audience consists primarily of local adults and business staff who require same-day flower delivery services, host large special occasion events, intimate dinners, or simply seeking sending a small gesture of love.  </p>
                 </div>
                 <div class='flex grid grid-cols-1 md:grid-cols-2 gap-4 w-full pb-10'>
                     <div class='w-full bg-rose-50 rounded-md p-5 '>
