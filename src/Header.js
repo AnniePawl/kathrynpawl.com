@@ -56,11 +56,13 @@ export default function Header(){
 
                     <div class='pb-8'>
                         <li onClick={openMenu} class='mr-10 font-bold text-zinc-700 w-full pb-1 border-b border-zinc-500 '>Product Design</li>
-                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calcumon">Calcumon</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/weatherapp">Weather App</Link></li>
-                        <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/packagedesign">Package Design</Link></li>
-                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calculator">Calculator</Link></li>
                         <li onClick={openMenu} class='hover:text-purple-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/maisfrida">Mais Frida</Link></li>
+                        <li onClick={openMenu} class='hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/widgets">Widgets</Link></li>
+                        <li onClick={openMenu} class='hover:text-green-500 hover:cursor-default transition-colors text-base md:text-base'><Link to="/thumbs">Thumbs</Link></li>
+                        <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calcumon">Calcumon</Link></li>
+                        {/* <li onClick={openMenu} class='tracking-tight hover:text-blue-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/weatherapp">Weather App</Link></li> */}
+                        {/* <li onClick={openMenu} class='tracking-tight hover:text-yellow-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/packagedesign">Package Design</Link></li> */}
+                        {/* <li onClick={openMenu} class='mt-1 tracking-tight hover:text-red-500 hover:cursor-default transition-colors text-base md:text-base '><Link to="/calculator">Calculator</Link></li> */}
                     </div>
                     {/* <div class='pb-20'>
                         <span class='font-bold '>Product Design</span>

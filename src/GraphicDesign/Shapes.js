@@ -52,7 +52,7 @@ export default function Shapes(){
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape16})` }}></div>
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape17})` }}></div>
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape18})` }}></div>
-                <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape19})` }}></div>
+                {/* <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape19})` }}></div> */}
             </div>
             <ToTop bgColor='#fde047'/>
         </div>

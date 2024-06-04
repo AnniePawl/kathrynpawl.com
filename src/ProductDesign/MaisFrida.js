@@ -12,7 +12,7 @@ import mais7 from '../assets/product/mais/mais-6.jpeg'
 import mais8 from '../assets/product/mais/mais-7.jpeg'
 import mais9 from '../assets/product/mais/mais-8.jpeg'
 import mais10 from '../assets/product/mais/mais-9.jpeg'
-import mais11 from '../assets/product/mais/mais-10.jpeg'
+import mais11 from '../assets/product/mais/mais-10.png'
 import maisLanding from '../assets/product/mais/mais-landing.jpeg'
 
 
@@ -22,12 +22,12 @@ export default function MaisFrida(){
     }, [])
 
     return(
-        <div class='bg-white h-fit w-screen flex flex-col items-center justify-center py-28'>
+        <div class='overflow-hidden bg-white h-fit w-screen flex flex-col items-center justify-center pt-20 md:py-24'>
             <Header/>
             {/* <h2 class='font-serif text-base md:text-2xl font-bold tracking-widest text-zinc-900 '>MAIS x FRIDA</h2> */}
             {/* <img class=' max-w-6xl scale-[.9]' src={mais1}/> */}
             <div class='w-full max-w-5xl flex flex-col items-center justify-center'>
-                <img class='max-w-5xl scale-[]' src={maisLanding}></img>
+                <img class='w-[400px] md:w-full max-w-5xl ' src={maisLanding}></img>
                 <img class='scale-[.9]' src={mais10}></img>
                 <img class='scale-[.9]' src={mais7}></img>
                 <img class='scale-[.9]' src={mais9}></img>

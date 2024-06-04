@@ -15,6 +15,7 @@ import pattern10 from '../assets/patterns/patterns-10.png'
 import pattern11 from '../assets/patterns/patterns-11.png'
 import pattern12 from '../assets/patterns/patterns-12.png'
 import pattern13 from '../assets/patterns/patterns-13.png'
+import pattern14 from '../assets/patterns/patterns-14.jpeg'
 
 
 export default function Patterns(){
@@ -27,10 +28,10 @@ export default function Patterns(){
             {/* <p class='absolute top-10 left-10'>Kathyn Pawl</p> */}
             <h2 class='pb-6 md:pb-12 text-base md:text-2xl font-bold uppercase tracking-widest text-zinc-900 '>Patterns</h2>
             <div className="flex grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-4">
-            <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern11})` }}></div>
-                <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern12})` }}></div>
-                <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern1})` }}></div>
+            <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern1})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern5})` }}></div>
+                <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern11})` }}></div>
+                <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern12})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern13})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern2})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern3})` }}></div>
@@ -40,6 +41,7 @@ export default function Patterns(){
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern7})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern9})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern6})` }}></div>
+                <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern14})` }}></div>
                
             </div>
             <ToTop bgColor='#0891b2'/>

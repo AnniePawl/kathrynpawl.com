@@ -6,7 +6,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 export default function Footer(){
 	return(
 		<div class='bg-zinc-50 h-fit w-screen relative flex items-center justify-center flex-col z-[10]'>
-		<div class='bg-zinc-50 w-full max-w-7xl flex flex-col md:flex-row justify-between w-screen py-16 md:pb-18 px-8'>
+		<div class='bg-zinc-50 w-full max-w-7xl flex flex-col md:flex-row justify-between w-screen pb-10 md:pb-14 px-8'>
 			<div class=''>
 				<div class='max-w-sm mb-8'>
 					<h3 class='text-sm md:text-base mb-1 md:mb-2 font-[700] text-rose-700 tracking-wide'>Interested in Working with Me?</h3>
@@ -32,10 +32,11 @@ export default function Footer(){
 			{/* Product Design */}
 			<div class='mb-6 md:mb-0'>
 				<p class='text-sm md:text-base font-[700] text-rose-700 w-full md:pb-1'>Product Design</p>
-				<p class='text-sm text-zinc-500 hover:text-zinc-400 '><Link to="/maisfrida">Thumbs</Link></p>
-				<p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/calcumon">Calcumon</Link></p>
 				<p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/maisfrida">Mais Frida</Link></p>
-				<p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/packagedesign">Package Design</Link></p>
+				<p class='text-sm text-zinc-500 hover:text-zinc-400 '><Link to="/thumbs">Thumbs</Link></p>
+				<p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/calcumon">Calcumon</Link></p>
+				<p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/widgets">Widgets</Link></p>
+				{/* <p class='text-sm text-zinc-500 hover:text-zinc-400'><Link to="/packagedesign">Package Design</Link></p> */}
 			</div>
 		</div>
 		<div class='w-screen py-2 bg-rose-100 flex items-center justify-center'> 

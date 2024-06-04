@@ -81,21 +81,17 @@ export default function Illustrations(){
                     </div>
                 </div>
                 <div class='w-full max-w-7xl pb-2 flex items-center justify-center'>
-                    <div class='mr-1 flex items-center justify-center h-fit w-full bg-white'>
+                    {/* <div class='mr-1 flex items-center justify-center h-fit w-full bg-white'>
                         <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${pic7})` }}></div>
+                    </div> */}
+                    <div class='mr-1 flex items-center justify-center h-fit w-full bg-white'>
+                        <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${bird})` }}></div>
                     </div>
                     <div class='ml-1 flex items-center justify-center  h-fit w-full bg-white'>
                         <div class=' h-48 w-48 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${pic8})` }}></div>
                     </div>
                 </div>
-                <div class='w-full max-w-7xl pb-2 flex items-center justify-center'>
-                    <div class='mr-1 flex items-center justify-center h-fit w-full bg-white'>
-                        <div class='h-48 w-48 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${bird})` }}></div>
-                    </div>
-                    <div class='ml-1 flex items-center justify-center  h-fit w-full bg-white'>
-                        <div class=' h-48 w-48 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${pic11})` }}></div>
-                    </div>
-                </div>
+           
                 <img class='pb-2' src={hands}></img>
                 <div class='flex grid grid-cols-2 gap-2 w-full pb-2 '>
                     <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${donut})` }}></div>

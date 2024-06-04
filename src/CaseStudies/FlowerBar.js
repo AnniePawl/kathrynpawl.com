@@ -17,6 +17,7 @@ import wireframe3 from '../assets/studies/flowerbar/wireframe-3.png'
 import prototype1 from '../assets/studies/flowerbar/prototype1.png'
 import prototype2 from '../assets/studies/flowerbar/prototype2.png'
 import prototype3 from '../assets/studies/flowerbar/prototype3.png'
+import graph from '../assets/studies/flowerbar/competetive-analysis.png'
 
 
 export default function FlowerBar(){
@@ -86,8 +87,8 @@ export default function FlowerBar(){
                 {/* Competetive Analysis */}
                 <div class='pt-6 pb-8 w-full'>
                     <h3 class='pb-6 font-serif text-lime-600 text-base md:text-2xl text-center font-bold uppercase tracking-widest'>Competetive Analysis</h3>
-                    <p class='text-base md:text-lg text-zinc-600 font-serif leading-5'>To understand how the needs of users are being met by existing solutions, I conducted a competitive analysis of various Flower Shop Web Apps. Notable features included the appearance, accessibility, user flow, navigation, brand identity, tone, and descriptions.  </p>
-                    {/* <img class='py-6' src={userSurvey}/> */}
+                    <p class='text-base md:text-lg text-zinc-600 font-serif leading-5'>To understand how the needs of users are being met by existing solutions, I conducted a competitive analysis of various Flower Shop Web Apps. Notable features included the appearance, accessibility, user flow, navigation, brand identity, tone, and descriptions. I researched four similar services, each of which have different strengths and weaknesses.  </p>
+                    <img class='py-6' src={graph}/>
                 </div>
 
                 {/* Qualatative Research  */}

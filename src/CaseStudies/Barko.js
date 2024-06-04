@@ -16,6 +16,7 @@ import barkoFlow from '../assets/studies/barko/barko-flow.png'
 import barkoTimeline from '../assets/studies/barko/barko-timeline.png'
 import barkoAvatar from '../assets/studies/barko/barko-avatar.png'
 import barkoLogo from '../assets/studies/barko/barko-logo.png'
+import prototype2 from '../assets/studies/barko/prototype.jpeg'
 import { useEffect } from "react";
 
 
@@ -161,6 +162,12 @@ export default function Barko(){
                     </div>
                     <img class='mb-3 w-full max-w-7xl' src={hifi3}/>
                     <img class='mb-3 w-full max-w-7xl' src={hifi4}/>
+                </div>
+                {/* HiFi Prototyle */}
+                <div class='pb-8 self-start'>
+                    <h3 class='text-[#569b3e] text-sm md:text-base font-bold uppercase tracking-widest mb-2'>Hi-Fi Prototype</h3>
+                    {/* <p class='text-sm md:text-base text-zinc-600 leading-5 mb-3'>Based on my research the goal was the come up with an intuitive user-friendly interface, that felts reliable and easy to navigate. Next, I introduced typography, colors, and others visual elements to add both playfulness and professionalism.   </p> */}
+                    <img class='mb-3 w-full max-w-7xl' src={prototype2}/>
                 </div>
                 {/* UI Details (colors+fonts) */}
                 <div class='pb-4 self-start w-full flex flex-col items-center'>
