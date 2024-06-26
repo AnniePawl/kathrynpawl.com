@@ -26,8 +26,8 @@ return(
     <div id='projects' className='bg-zinc-50 h-fit w-screen relative flex  justify-center flex-col z-[10] flex'>
         <div class='w-full px-6 md:px-24 pt-16 pb-20 '>
             {/* CASE STUDIES */}
-            <h2 class='mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Case Studies</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <h2 class='mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Case Studies</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
                 <Link to="/fins"> <ProjectCard h1={'Fins'} h2={''} p={'An online Seafood market that offers same-day delivery of the highest quality seafood, sourced from small-boat fishermen. The goal was to make ordering seafood fast, simple, transparent and reliable. '} img={finsLaptop}/></Link>
                 <Link to="/barko"> <ProjectCard h1={'Barko'} h2={''} p={'A one-stop mobile app for pet owners to easily find and book trustworthy dog walkers located near them. My role for this project was to conduct market research, address user pain points and deliver a prototype. '} img={cs3}/></Link>
@@ -35,8 +35,8 @@ return(
                 <Link to="/medsmart"> <ProjectCard h1={'MEDSMART'} h2={''} p={'A mobile app that I designed to help people stay on top of their medication schedules, while also providing the opportunity for users to learn about possible drug interactions, health benefits, and side effect of the medications they’re taking.'} img={cs2}/></Link>
             </div>
             {/* Graphic Design */}
-            <h2 id='graphicDesign' class='mt-20 mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Graphic Design</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <h2 id='graphicDesign' class='mt-20 mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Graphic Design</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
                 <Link to="/shapes"> <ProjectCard h1={'Shapes'} h2={''} p={'An experiment in ‘impossible shapes,’ which are drawn to the rules of perspective but cannot actually be constructed. I practiced using colors and angles to make 2D figures that create the illusion of 3D objects. '} img={shapesCover}/></Link>
                 <Link to="/patterns"> <ProjectCard h1={'Patterns'} h2={''} p={'Practice with the pattern editing mode in Adobe Illustrator. I experimented with  contrast, repetition, white space, hierarchy and proportion to create unique swatches for various applications. '} img={patternCover}/></Link>
@@ -44,8 +44,8 @@ return(
                 <Link to="/illustrations"> <ProjectCard h1={'Illustrations'} h2={''} p={'A showcase of some freehand illustrations I made with Illustrator and Procreate to familiarize myself with each softwares object and effect tools. '} img={illustrationsCover}/></Link>
             </div>
             {/* Product Design */}
-            <h2 id='productDesign' class='mt-20 mb-2 text-rose-700  text-base md:text-2xl font-medium uppercase tracking-widest '>Product Design</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-zinc-800'></div>
+            <h2 id='productDesign' class='mt-20 mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Product Design</h2>
+            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
                 <Link to="/thumbs"> <ProjectCard h1={'Thumbs'} h2={''} p={'Design iterations from the ideation phase of a web extension that allows users to like/dislike products across internet. I experimented  '} img={thumbsCover}/></Link>
                 <Link to="/MaisFrida"> <ProjectCard h1={'Mais x Frida'} h2={' '} p={'A design exercise aimed at crafting a more functional online shopping experience for a handmade jewelry company. My focus was on enhancing usability while staying true to the Mais Frida brand aesthetic. '} img={maisHero}/></Link>
