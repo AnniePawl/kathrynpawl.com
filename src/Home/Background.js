@@ -1,23 +1,8 @@
 import React, { Component } from 'react'
-// import bg3 from '../assets/bg3.jpeg'
-// import bg7 from '../assets/bg7.jpeg'
-import newBg from '../assets/new-bg.jpeg'
-import bg12 from '../assets/bg-12.png'
-import bg16 from '../assets/bg-16.png'
-import bg21 from '../assets/bg-21.png'
-import bg28 from '../assets/bg-28.png'
-import bg32 from '../assets/bg-32.png'
-import bg1 from '../assets/1.jpeg'
-import bg3 from '../assets/3.jpeg'
-import bg4 from '../assets/4.jpeg'
-import bg6 from '../assets/6.jpeg'
-// import bg7 from '../assets/7.jpeg'
-// import bg8 from '../assets/8.jpeg'
-import bg7 from '../assets/7.jpeg'
-import bg8 from '../assets/8.jpeg'
-import bg9 from '../assets/9.jpeg'
-import bg10 from '../assets/10.jpeg'
-// import bg9 from '../assets/9.jpeg'
+import gradientBG from '../assets/GradientBG.png'
+import cloudBG from '../assets/cloud-bg.jpeg'
+import katsBg from '../assets/Videos/kats-bg.mp4'
+import katsBgMobile from '../assets/Videos/kats-bg-mobile.mp4'
 
 
 
@@ -26,9 +11,32 @@ import './landing.scss'
 
 export default function Background(){
     return(
-        <div>
-            <div className='hidden md:flex bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg10})` }} ></div>
-            <div className='md:hidden bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg8})` }} ></div>
+       
+   <div>
+        <div className='overflow-hidden fixed md:-bottom-4 left-0 bg-white px-24 z-[0] top-0 left-0 w-screen h-[93vh] lg:h-screen flex items-center justify-end '>
+
+			<video className='VideoTag hidden scale-[1.1] -mb-6 md:flex w-screen ' autoPlay  muted>
+			    <source src={katsBg} type='video/mp4'/>
+		    </video>
+
+            <video className='VideoTag  md:hidden scale-[1.9]' autoPlay  muted>
+			    <source src={katsBgMobile} type='video/mp4'/>
+		    </video>
+
+            <div class=' absolute bottom-4 md:bottom-10 left-0 w-full px-4 md:px-20'>
+                    {/* <p class='text-zinc-800 text-lg font-bold uppercase tracking-wide '>Kathryn Pawl </p> */}
+                    <div class='flex flex-col w-full justify-between '>
+                    <p class='text-zinc-800 text-xs md:text-base tracking-wider uppercase mb-1 '>Kathryn Pawl  </p>
+                        <p class='text-zinc-800 text-xs md:text-base tracking-wider uppercase mb-1 '>UX Designer / UX Researcher  </p>
+                        <p class='text-zinc-800 text-xs md:text-base tracking-wider uppercase '>Seattle Washington  </p>
+                    </div>
+                </div>
+
+
+
+            {/* <div className='background fixed top-0 left-0 h-screen w-screen bg-cover bg-center' style={{ backgroundImage:`url(${cloudBG})` }} ></div> */}
+            {/* <div className='md:hidden bg-gradient-to-t from-blue-600 to-transparent background opacity-80 h-screen fixed top-0 left-0 w-screen bg-cover bg-center' style={{ backgroundImage:`url(${bg8})` }} ></div> */}
+        </div>
         </div>
         )
 }

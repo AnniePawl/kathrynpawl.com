@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React, { useEffect, useRef, useState } from "react";
 import ProjectCard from './ProjectCard';
 import shapesCover from '../assets/projects/shapes-cover.png'
-import patternCover from '../assets/projects/pattern-cover.jpeg'
+// import patternCover from '../assets/projects/pattern-cover.jpeg'
 import illustrationsCover from '../assets/projects/illustrations-cover.jpeg'
 import textCover from '../assets/projects/text-cover.jpeg'
 import cs2 from '../assets/studies/cs-2.jpeg'
@@ -12,49 +12,173 @@ import flowerbarcover from '../assets/studies/flowerbar/flowerbarcover.jpeg'
 import finsLaptop from '../assets/projects/fins-laptop.jpeg'
 import calcumon from '../assets/projects/calcumon.jpeg'
 // import product1 from '../assets/product/product-1.jpeg'
-import thumbsCover from '../assets/product/thumbs/thumbs-cover.jpeg'
+import thumbsCover from '../assets/thumbs-cover.jpeg'
 import carton1 from '../assets/product/milkcarton1.png'
 import weather1 from '../assets/product/weather/weather-light.jpeg'
 import calcumonHero from '../assets/product/calcumon/calcumon-cover.jpeg'
-import maisHero from '../assets/product/mais/mais-cover.jpeg'
+import maisHero from '../assets/mais-cover.jpeg'
+
+import barkoCover from '../assets/barko-cover.jpeg'
+import finsCover from '../assets/fins-cover.jpeg'
+import typeCover from '../assets/typography-cover.jpeg'
+// import shapesCover from '.../assets/shapes-cover.jpeg'
+import patternCover from '../assets/pattern-cover.jpeg'
+import widgetsCover from '../assets/widgets-cover.jpeg'
+import calcCover from '../assets/calc-cover.jpeg'
+import medsmartCover from '../assets/medsmart-hero.jpeg'
+import flowerCover from '../assets/flower-cover.jpeg'
 
 
 export default function Projects(){
 
 return(
 
-    <div id='projects' className='bg-zinc-50 h-fit w-screen relative flex  justify-center flex-col z-[10] flex'>
-        <div class='w-full px-6 md:px-24 pt-16 pb-20 '>
-            {/* CASE STUDIES */}
-            <h2 class='mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Case Studies</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-                <Link to="/fins"> <ProjectCard h1={'Fins'} h2={''} p={'An online Seafood market that offers same-day delivery of the highest quality seafood, sourced from small-boat fishermen. The goal was to make ordering seafood fast, simple, transparent and reliable. '} img={finsLaptop}/></Link>
-                <Link to="/barko"> <ProjectCard h1={'Barko'} h2={''} p={'A one-stop mobile app for pet owners to easily find and book trustworthy dog walkers located near them. My role for this project was to conduct market research, address user pain points and deliver a prototype. '} img={cs3}/></Link>
-                <Link to="/flowerbar"> <ProjectCard h1={'Flower Bar'} h2={''} p={'A redesign of an existing online flower shop. My aim was to create a more a more streamlined web app that allows customers to browse a visual flower menu, customize selections, pin favorite items, and seamlessly check out for pick-up or delivery.   '} img={flowerbarcover}/></Link>
-                <Link to="/medsmart"> <ProjectCard h1={'MEDSMART'} h2={''} p={'A mobile app that I designed to help people stay on top of their medication schedules, while also providing the opportunity for users to learn about possible drug interactions, health benefits, and side effect of the medications they’re taking.'} img={cs2}/></Link>
+    <div id='projects' className='relative z-[100] w-screen h-fit gap-0 flex grid grid-cols-1'>
+        <h2 id='caseStudies' class='w-full h-fit py-8 bg-zinc-50 text-zinc-800 uppercase text-center  tracking-widest'>Case Studies</h2>
+       {/* Fins  */}
+       <Link to="/fins"> 
+        <div class='flex w-full grid grid-cols-2 transition-all '>
+            <div class=' w-full bg-[#334574] aspect-square xl:aspect-[2/1.5] flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-lg tracking-wide '>Seafood & Be Seen</p>
+                <p class='text-zinc-50 text-xl md:text-5xl font-medium tracking-widest uppercase '>Fins.</p>
+                <p class='text-zinc-50 text-xs md:text-lg tracking-wide '>Case Study | Web App</p>
             </div>
-            {/* Graphic Design */}
-            <h2 id='graphicDesign' class='mt-20 mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Graphic Design</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-                <Link to="/shapes"> <ProjectCard h1={'Shapes'} h2={''} p={'An experiment in ‘impossible shapes,’ which are drawn to the rules of perspective but cannot actually be constructed. I practiced using colors and angles to make 2D figures that create the illusion of 3D objects. '} img={shapesCover}/></Link>
-                <Link to="/patterns"> <ProjectCard h1={'Patterns'} h2={''} p={'Practice with the pattern editing mode in Adobe Illustrator. I experimented with  contrast, repetition, white space, hierarchy and proportion to create unique swatches for various applications. '} img={patternCover}/></Link>
-                <Link to="/typography"> <ProjectCard h1={'Typography'} h2={''} p={'An exercise in manipulating text through various techniques. I played with effects like shadow, perspective, and texture. I am learning to create fun text animations like the glitch effect. '} img={textCover}/></Link>
-                <Link to="/illustrations"> <ProjectCard h1={'Illustrations'} h2={''} p={'A showcase of some freehand illustrations I made with Illustrator and Procreate to familiarize myself with each softwares object and effect tools. '} img={illustrationsCover}/></Link>
-            </div>
-            {/* Product Design */}
-            <h2 id='productDesign' class='mt-20 mb-2 text-[#1b547a]   text-base md:text-2xl font-medium uppercase tracking-widest '>Product Design</h2>
-            <div class=' mb-12 w-full h-[1.5px] bg-[#1b547a] '></div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
-                <Link to="/thumbs"> <ProjectCard h1={'Thumbs'} h2={''} p={'Design iterations from the ideation phase of a web extension that allows users to like/dislike products across internet. I experimented  '} img={thumbsCover}/></Link>
-                <Link to="/MaisFrida"> <ProjectCard h1={'Mais x Frida'} h2={' '} p={'A design exercise aimed at crafting a more functional online shopping experience for a handmade jewelry company. My focus was on enhancing usability while staying true to the Mais Frida brand aesthetic. '} img={maisHero}/></Link>
-                <Link to="/calcumon"> <ProjectCard h1={'Calcumon'} h2={''} p={'Prototypes and assets for an interactive online learning experience. The platformed was designed to help young students develop math skills, featuring a friendly UI and fun characters.'} img={calcumonHero}/></Link> 
-                {/* <Link to="/packagedesign"> <ProjectCard h1={'Package Design'} h2={''} p={'The beginning stages of exploring my interest in package design. I’ve been accompanying online courses with hands on practice applying 2D graphics from Photoshop onto 3D models in Dimension. '} img={carton1}/></Link> */}
-                <Link to="/widgets"> <ProjectCard h1={'Mobile Widgets'} h2={''} p={'A selection of mini applications meant to carry out small, specific tasks. I designed a steamlined weather app with light and dark mode, and a series of calculator widgets. '} img={weather1}/></Link>
+            <div class=' w-full bg-zinc-200 aspect-square xl:aspect-[2/1.5] '>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${finsCover})` }}></div>
             </div>
         </div>
-       
+        </Link>
+        {/* Barko */}
+        <Link to="/barko"> 
+        <div class='flex w-full grid grid-cols-2'>
+            {/* <div class=' w-full bg-[#87B963] aspect-square xl:aspect-[2/1.5]   '></div> */}
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${barkoCover})` }}></div>
+            <div class=' w-full bg-[#FCED9D] aspect-square xl:aspect-[2/1.5]  flex items-end flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-800 text-xs md:text-lg tracking-wide '>Because your pet deserves the best.</p>
+                <p class='text-zinc-800 text-xl md:text-6xl font-medium tracking-widest uppercase '>Barko</p>
+                <p class='text-zinc-800 text-xs md:text-lg tracking-wide '>Case Study | Mobile App</p>
+            </div>
+            
+        </div>
+        </Link>
+        {/* Flower Bar */}
+        <Link to="/flowerbar"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class=' w-full bg-rose-200 aspect-square xl:aspect-[2/1.5]  flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>Putting power in flower. </p>
+                <p class='text-zinc-800 text-xl md:text-4xl font-medium tracking-widest uppercase '>The Flower Bar.</p>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>Case Study | Web App</p>
+            </div>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${flowerCover})` }}></div>
+        </div>
+        </Link>
+        <Link to="/medsmart"> 
+        {/* Medsmart */}
+        <div class='flex w-full grid grid-cols-2'>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${medsmartCover})` }}></div>
+            <div class=' w-full bg-cyan-700 aspect-square xl:aspect-[2/1.5]  flex flex-col items-end justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Manage medication the smart way.</p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>Med Smart.</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Case Study | Mobile App</p>
+            </div>
+            
+        </div>
+        </Link>
+
+        {/* GRAPHIC DESIGN  */}
+        <h2 id='graphicDesign' class='w-full h-fit py-8 bg-zinc-50 text-zinc-800 uppercase text-center tracking-widest'>Graphic Design</h2>
+        {/* Shapes */}
+        <Link to="/shapes"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class=' w-full bg-[#516436] aspect-square xl:aspect-[2/1.5]  flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Creating the illusion of three-dimensional objects. </p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>Shapes.</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Experimenting with colors and angles.</p>
+            </div>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${shapesCover})` }}></div>
+        </div>
+        </Link>
+        {/* Patterns */}
+        <Link to="/patterns"> 
+        <div class='flex w-full grid grid-cols-2'>
+        <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${patternCover})` }}></div>
+            <div class=' w-full bg-[#FCED9D] aspect-square xl:aspect-[2/1.5]  flex items-end flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-800 text-xs md:text-lg tracking-wide text-right'>Experimenting with contrast, repetition, white space, hierarchy and proportion. </p>
+                <p class='text-zinc-800 text-xl md:text-6xl font-medium tracking-widest uppercase '>Patterns</p>
+                <p class='text-zinc-800 text-xs md:text-lg tracking-wide text-right'>Unique, custom swatches for various applications</p>
+            </div>
+        </div>
+        </Link>
+        {/* Typography */}
+        <Link to="/typography"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class=' w-full bg-[#C5313C] aspect-square xl:aspect-[2/1.5]  flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Shadow, perspective, and texture.</p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>Typography.</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>An exploration of text manipulation using diverse techniques.</p>
+            </div>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${typeCover})` }}></div>
+        </div>
+        </Link>
+        {/* Illustrations */}
+        <Link to="/illustrations"> 
+        <div class='flex w-full grid grid-cols-2'>
+        <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${illustrationsCover})` }}></div>
+            <div class=' w-full bg-[#A39D8D] aspect-square xl:aspect-[2/1.5] flex flex-col items-end justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide text-right'>Seafood & Be Seen</p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>Illustrations.</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide text-right'>Working with Illustraor and Procreate.</p>
+            </div>
+            {/* <div class=' w-full bg-[#1E463F] aspect-square xl:aspect-[2/1.5]   '></div> */}
+        </div>
+        </Link>
+
+         {/* PRODUCT DESIGN  */}
+         <h2 id='productDesign' class='w-full h-fit py-8 bg-zinc-50 text-zinc-800 uppercase text-center tracking-widest'>Product Design</h2>
+        {/* Thumbs */}
+        <Link to="/thumbs"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class=' w-full bg-[#D6FBDD] aspect-square xl:aspect-[2/1.5]  flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>To like or not to like. </p>
+                <p class='text-zinc-800 text-xl md:text-4xl font-medium tracking-widest uppercase '>Thumbs.</p>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>Product Design | Web App </p>
+            </div>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${thumbsCover})` }}></div>
+        </div>
+        </Link>
+        {/* MAIS X FRIDA. */}
+        <Link to="/MaisFrida"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${maisHero})` }}></div>
+            <div class=' w-full bg-[#AF8FC2] aspect-square xl:aspect-[2/1.5]  flex flex-col items-end justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide text-right '>Timeless handcrafted jewelry. </p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>MAIS X FRIDA.</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide text-right'> Product Design | Site Refresh</p>
+            </div>
+        </div>
+        </Link>
+        {/* Calcumon. */}
+        <Link to="/calcumon"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class=' w-full bg-[#a3dadc] aspect-square xl:aspect-[2/1.5]  flex flex-col justify-between p-4 md:p-12'>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>Math made fun.</p>
+                <p class='text-zinc-800 text-xl md:text-4xl font-medium tracking-widest uppercase '>Calcumon.</p>
+                <p class='text-zinc-800 text-xs md:text-base tracking-wide '>Product Design | Web App </p>
+            </div>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] bg-cover bg-center' style={{ backgroundImage:`url(${calcCover})` }}></div>
+        </div>
+        </Link>
+        {/* Mobile Widgets */}
+        <Link to="/widgets"> 
+        <div class='flex w-full grid grid-cols-2'>
+            <div class='w-full aspect-square xl:aspect-[2/1.5] items-left bg-cover bg-center' style={{ backgroundImage:`url(${widgetsCover})` }}></div>
+            <div class=' w-full bg-[#B64154] aspect-square xl:aspect-[2/1.5]  flex flex-col items-end justify-between p-4 md:p-12'>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Small seamless applications.</p>
+                <p class='text-zinc-50 text-xl md:text-4xl font-medium tracking-widest uppercase '>Mobile Widgets</p>
+                <p class='text-zinc-50 text-xs md:text-base tracking-wide '>Product Design | Mini Apps</p>
+            </div>
+        </div>
+        </Link>
     </div>
   )
 }

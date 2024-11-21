@@ -20,6 +20,7 @@ import PackageDesign from './ProductDesign/PackageDesign';
 import Calcumon from './ProductDesign/Calcumon';
 
 
+
 import {
  
     BrowserRouter as Router,
@@ -54,8 +55,6 @@ export default function App() {
             <Route path="/calcumon" element={<Calcumon/>}/>
             <Route path="/maisfrida" element={<MaisFrida/>}/>
             <Route path="/packagedesign" element={<PackageDesign/>}/>
-            
-            
         </Routes>
     </Router>
     );
