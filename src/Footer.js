@@ -28,8 +28,8 @@ export default function Footer(){
 
 		
 	
-			<div class='pt-6 bg-white h-fit w-screen block flex items-center justify-center flex-col z-[101]'>
-			<div class='bg-white w-full max-w-[1400px] flex flex-col md:flex-row justify-between w-screen pb-10 md:pb-14 px-8'>
+			<div class='bg-white h-fit w-screen block flex items-center justify-center flex-col z-[101]'>
+			<div class='bg-white w-full max-w-[1400px] flex flex-col md:flex-row justify-between w-screen pb-4 md:pb-14 px-8'>
 				<div class=''>
 					<div class='max-w-sm mb-8'>
 						<h3 class='text-sm md:text-base mb-1 md:mb-2 font-[700] text-yellow-500 tracking-wide'>Interested in Working with Me?</h3>

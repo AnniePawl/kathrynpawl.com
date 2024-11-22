@@ -42,17 +42,13 @@ export default function Illustrations(){
     useEffect(() => {
             window.scrollTo(0, 0)
             }, []);
-    
 
-   
-    
-    
     return(
         <div class='relative overflow-hidden bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-20'>
            <Header/>
             <h2 class='pb-3 text-base md:text-2xl font-bold uppercase tracking-widest text-zinc-900 '>Illustrations</h2>
             {/* Menu */}
-            <div class='z-[10000] sticky top-10 mb-6 w-full h-fit max-w-6xl flex items-center justify-center'>
+            <div class=' mb-6 w-full h-fit max-w-6xl flex items-center justify-center'>
                 <HashLink  smooth to="#misc">
                     <span  class='hover:cursor-pointer text-xs font-medium py-1 bg-zinc-100 hover:bg-zinc-200 transition-colors duration-[.5s] rounded-md px-4 uppercase tracking-widest text-zinc-900 mx-2'>misc.</span>
                 </HashLink>

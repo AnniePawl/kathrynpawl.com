@@ -13,4 +13,12 @@
     position: absolute;
   }
   
-  
+  .header >*{
+    cursor: url(../src/assets/dot.svg), auto;
+  }
+  .header {
+    cursor: url(../src/assets/dot.svg), auto;
+  }
+  a {
+    cursor: url(../src/assets/dot.svg), auto;
+  }

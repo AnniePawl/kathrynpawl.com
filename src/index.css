@@ -18,7 +18,7 @@ body {
 
 
 body{
-  cursor: url(./assets/star.svg), auto;
+  cursor: url(../src/assets/dot.svg), auto;
   
 
 }

@@ -1,20 +1,24 @@
 
-
 .landing{
-  cursor: url(../assets/star.svg), auto;
-  // background-image:linear-gradient(to top, rgba(70, 107, 126, 0.58), rgb(1, 41, 86 , 0)  );
+  cursor: url(../assets/dot.svg), auto;
 }
 
 .card{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+@media screen and (max-width: 600px) {
+.card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+}
+
+.card{
+    cursor: url(../assets/dot.svg), auto !important;
 }
 
 
-.background {
-  // background-image: url(https://i.imgur.com/fj8qxbH.jpg);
-  // background-size: 100% 100%;
-  // animation: MoveBackground 30s linear infinite;
-}
 @keyframes MoveBackground {
   0%{background-position:0% 0%; background-size: 100% 100%; }
   25%{background-position:100% 0%; background-size: 130% 130%;}
@@ -23,34 +27,7 @@
   100%{background-position:0% 0%; background-size: 100% 100%;}
 }
 
-// .cover{
-//   &::after{
-//     content:"CASE STUDIES";
-//     color:white;
-//     display:flex;
-//     align-items: center;
-//     justify-content: center;
-//     text-transform:uppercase;
-//     position:absolute;
-//     letter-spacing:1.5px;
-//     font-size:16px;
-//     transition: all;
-//     transition-duration: 1s;
-//     background:rgb(55, 55, 55);
-//     height:100%;
-//     width:100%;
-//     top:0;
-//     left:0;
-//     opacity:00%;
-//   }
-//   &:hover{
-//     &::after{
-//       opacity:10%;
-//       content:"";
-//     }
-//   }
 
-// }
 
 
 

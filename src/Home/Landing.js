@@ -12,7 +12,7 @@ export default function Landing(){
     const [enabled, setEnabled] = useState(false)
  
     return(
-        <div id='landing' class='landing h-[93vh] md:h-[100vh] w-screen overflow-hidden z-[11] justify-center flex items-end relative'>
+        <div id='landing' class='landing h-[90vh] md:h-[100vh] w-screen overflow-hidden z-[11] justify-center flex items-end relative'>
           <HomeHeader/>
           {/* <p class='text-zinc-800 font-[300] text-sm md:text-base tracking-wide  '>UX Designer / UX Researcher  </p> */}
              {/* <div class=' w-full px-4 md:px-20'>
