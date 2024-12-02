@@ -25,7 +25,6 @@ export default function Patterns(){
     return(
         <div class='overflow-hidden relative bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center pt-20 pb-10 md:py-28 '>
             <Header/>
-            {/* <p class='absolute top-10 left-10'>Kathyn Pawl</p> */}
             <h2 class='pb-6 md:pb-12 text-base md:text-2xl font-bold uppercase tracking-widest text-zinc-900 '>Patterns</h2>
             <div className="flex grid grid-cols-2 md:grid-cols-2 gap-2 md:gap-4">
             <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern1})` }}></div>
@@ -42,7 +41,6 @@ export default function Patterns(){
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern9})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern6})` }}></div>
                 <div class='h-44 w-44 sm:h-44 sm:w-44 md:h-[550px] md:w-[550px] bg-center bg-cover '  style={{ backgroundImage:`url(${pattern14})` }}></div>
-               
             </div>
             <ToTop bgColor='#0891b2'/>
         </div>

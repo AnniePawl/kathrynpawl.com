@@ -1,35 +1,11 @@
 import React from 'react';
-import vid from './assets/Videos/animatedBg.mp4'
 import './footer.scss'
-
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-
-
 
 export default function Footer(){
 	return(
-		<div class='z-[10] absolute bg-white'>
-			  {/* <div className="video-responsive ">
-				<iframe
-				width="853"
-				height='fit'
-				src={vid}
-				frameBorder="0"
-				allow="accelerometer; muted; autoplay; loop; oclipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowFullScreen
-				title=""
-				/>
-			</div> */}
-
-			{/* <video className='VideoTag' autoPlay loop muted>
-			<source src={vid} type='video/mp4'/>
-		</video> */}
-
-
-		
-	
-			<div class='bg-white h-fit w-screen block flex items-center justify-center flex-col z-[101]'>
-			<div class='bg-white w-full max-w-[1400px] flex flex-col md:flex-row justify-between w-screen pb-4 md:pb-14 px-8'>
+		<div class='z-[100] absolute overflow-hidden bg-white flex flex-col items-center justify-center'>
+			<div class='bg-white w-full max-w-7xl flex flex-col md:flex-row justify-between w-screen pb-4 md:pb-12 px-8 md:px-8 xl:px-2'>
 				<div class=''>
 					<div class='max-w-sm mb-8'>
 						<h3 class='text-sm md:text-base mb-1 md:mb-2 font-[700] text-yellow-500 tracking-wide'>Interested in Working with Me?</h3>
@@ -65,7 +41,6 @@ export default function Footer(){
 			<div class='w-screen py-2 bg-rose-100 flex items-center justify-center'> 
 				<p class='text-center text-rose-700 text-xs tracking-wider'>© Kathryn Pawl. 2024 All Rights Reserved</p>
 			</div>
-		</div>
 	</div>
 	)
 }

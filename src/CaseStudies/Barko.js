@@ -3,7 +3,6 @@ import ToTop from "../ToTop";
 import Header from '../Header'
 import cs3 from '../assets/studies/cs-3.jpeg'
 import barkoHero2 from '../assets/studies/barko/barko-cover2.jpeg'
-import barkoHero3 from '../assets/studies/cs-2.jpeg'
 import barkoColors from '../assets/studies/barko/barko-colors.png'
 import barkoFonts from '../assets/studies/barko/barko-fonts.png'
 import prototype from '../assets/studies/barko/barko-prototype.png'
@@ -11,7 +10,6 @@ import hifi1 from '../assets/studies/barko/barko-hifi1.png'
 import hifi2 from '../assets/studies/barko/barko-hifi-2.png'
 import hifi3 from '../assets/studies/barko/barko-hifi-3.png'
 import hifi4 from '../assets/studies/barko/barko-hifi-4.png'
-import barkoWireframe from '../assets/studies/barko/barko-wireframe.png'
 import barkoFlow from '../assets/studies/barko/barko-flow.png'
 import barkoTimeline from '../assets/studies/barko/barko-timeline.png'
 import barkoAvatar from '../assets/studies/barko/barko-avatar.png'
@@ -19,15 +17,12 @@ import barkoLogo from '../assets/studies/barko/barko-logo.png'
 import prototype2 from '../assets/studies/barko/prototype.jpeg'
 import { useEffect } from "react";
 
-
 export default function Barko(){
     useEffect(() => {
          window.scrollTo(0, 0)
     }, []);
 
-
     return(
-       
         <div class='bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-24'>
             <Header/>
             <div class='w-full max-w-3xl flex flex-col items-center'>

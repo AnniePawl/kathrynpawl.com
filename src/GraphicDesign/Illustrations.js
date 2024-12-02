@@ -8,15 +8,7 @@ import pic2 from '../assets/illustrations/pic-2.png'
 import pic3 from '../assets/illustrations/pic-3.png'
 import pic4 from '../assets/illustrations/pic-4.png'
 import pic5 from '../assets/illustrations/pic-5.png'
-import pic6 from '../assets/illustrations/pic-6.png'
-import pic7 from '../assets/illustrations/pic-7.jpeg'
-import pic8 from '../assets/illustrations/pic-8.jpeg'
-import pic9 from '../assets/illustrations/pic-9.jpeg'
-import pic10 from '../assets/illustrations/pic-10.jpeg'
-import pic11 from '../assets/illustrations/pic-11.jpeg'
 import pic12 from '../assets/illustrations/pic-12.png'
-import pic13 from '../assets/illustrations/pic-13.png'
-import pic14 from '../assets/illustrations/pic-14.png'
 import pic15 from '../assets/illustrations/pic-15.png'
 import pic16 from '../assets/illustrations/pic-16.png'
 import pic17 from '../assets/illustrations/pic-17.jpeg'
@@ -25,18 +17,8 @@ import pic19 from '../assets/illustrations/pic-19.jpeg'
 import pic20 from '../assets/illustrations/pic-20.jpeg'
 import pic21 from '../assets/illustrations/pic-21.jpeg'
 import pic22 from '../assets/illustrations/pic-22.jpeg'
-import pic23 from '../assets/illustrations/pic-23.jpeg'
 import pic24 from '../assets/illustrations/pic-24.jpeg'
-import bird from '../assets/illustrations/pic-25.jpeg'
-import rainbow from '../assets/illustrations/rainbow.png'
-import donut from '../assets/illustrations/donut.png'
-import donut2 from '../assets/illustrations/donut2.png'
 import hands from '../assets/illustrations/hands.png'
-import stairs from '../assets/illustrations/stairs.png'
-import turtle from '../assets/illustrations/turtle.png'
-
-
-
 
 export default function Illustrations(){
     useEffect(() => {
@@ -118,19 +100,14 @@ export default function Illustrations(){
             </div>
             <div class='w-full max-w-6xl pb-10 flex flex-col items-center justify-center px-4 '>
                     <div class='flex grid grid-cols-2 gap-2 md:grid-cols-2 w-full pb-2 '>
-                        {/* <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic9})` }}></div> */}
                         <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic17})` }}></div>
                         <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic18})` }}></div>
                         <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic19})` }}></div>
                         <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic20})` }}></div>
-                        {/* <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic21})` }}></div> */}
-                        {/* <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover'  style={{ backgroundImage:`url(${pic4})` }}></div>
-                        <div class='flex h-56 md:h-[450px] w-full bg-center bg-cover '  style={{ backgroundImage:`url(${pic5})` }}></div> */}
                     </div>
                     <div class='flex'>
                         <img class='w-full' src={pic21}/>
                     </div>
-                    
             </div>
 
             {/* 3D */}

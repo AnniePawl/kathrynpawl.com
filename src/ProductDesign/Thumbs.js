@@ -1,12 +1,11 @@
 import React from "react";
+import { useEffect } from "react";
 import Header from '../Header'
 import v1 from '../assets/product/thumbs/v1.png'
 import v2 from '../assets/product/thumbs/v2.png'
-import v3 from '../assets/product/thumbs/v3.png'
 import v4 from '../assets/product/thumbs/v4.png'
 import v5 from '../assets/product/thumbs/v5.png'
 import v6 from '../assets/product/thumbs/v6.png'
-import v7 from '../assets/product/thumbs/v7.png'
 import bw1 from '../assets/product/thumbs/bw-1.png'
 import bw2 from '../assets/product/thumbs/bw-2.png'
 import bw3 from '../assets/product/thumbs/bw-3.png'
@@ -27,9 +26,6 @@ import prototype1 from '../assets/product/thumbs/prototype1.png'
 import prototype2 from '../assets/product/thumbs/prototype2.png'
 import btns from '../assets/product/thumbs/btns.png'
 import blueprototype from '../assets/product/thumbs/blue-prototype.png'
-import redprototype from '../assets/product/thumbs/red-prototype.png'
-
-import { useEffect } from "react";
 
 
 export default function Thumbs(){
@@ -68,7 +64,6 @@ export default function Thumbs(){
                         <img class='w-screen ' src={blue3}></img>
                     </div>
                     <img class='w-screen md:max-w-3xl ' src={blueprototype}></img>
-               
                 </div>
                 {/* Version 3 - Green/Red  */}
                 <div class='flex flex-col items-center justify-center'>
@@ -87,7 +82,6 @@ export default function Thumbs(){
                         <img class='w-screen md:max-w-sm' src={v2}></img>
                     </div>
                     {/* <img class='w-screen md:max-w-3xl py-4 ' src={redprototype}></img> */}
-                   
                 </div>
                 {/* Initial Wireframes */}
                 <div class='hidden flex flex-col items-center justify-center'>
@@ -101,7 +95,6 @@ export default function Thumbs(){
                         <img class='w-screen ' src={wire4}></img>
                         <img class='w-screen ' src={wire3}></img>
                     </div>
-                 
                 </div>
                 {/* Widget in Action */}
                 <div class='flex flex-col items-center justify-center'>
@@ -110,11 +103,8 @@ export default function Thumbs(){
                     <div class='grid grid-cols-1 md:grid-cols-2 gap-4 mb-6'>
                         <img class='w-screen max-w-md  ' src={v6}></img>
                         <img class='w-screen max-w-md  ' src={prototype2}></img>
-                        
                     </div>
                     <img class='w-screen md:max-w-4xl' src={prototype1}></img>
-                  
-                  
                 </div>
             </div>        
         </div>

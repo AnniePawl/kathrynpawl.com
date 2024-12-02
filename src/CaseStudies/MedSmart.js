@@ -12,7 +12,6 @@ import medsmartPrototype4 from '../assets/studies/medsmart/medsmart-prototype4.p
 import userFlow from '../assets/studies/medsmart/userflow.png'
 import { useEffect } from "react";
 
-
 export default function MedSmart(){
     useEffect(() => {
          window.scrollTo(0, 0)

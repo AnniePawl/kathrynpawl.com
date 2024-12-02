@@ -25,7 +25,6 @@ export default function FlowerBar(){
          window.scrollTo(0, 0)
     }, []);
 
- 
     return(
         <div class='bg-white h-fit w-screen flex flex-col items-center justify-center py-28'>
             <Header/>
@@ -143,7 +142,6 @@ export default function FlowerBar(){
                     <h3 class='pb-6 font-serif text-lime-600 text-base md:text-2xl text-center font-bold uppercase tracking-widest'>Style Guide</h3>
                     <img class='py-6' src={styleGuide}/>
                 </div>
-
             </div>
             <ToTop bgColor='#65a30d'/>
         </div>

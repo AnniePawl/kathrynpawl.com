@@ -15,12 +15,8 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-
-
 body{
   cursor: url(../src/assets/dot.svg), auto;
-  
-
 }
 
 

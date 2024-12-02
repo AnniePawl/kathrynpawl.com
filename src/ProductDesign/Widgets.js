@@ -7,14 +7,12 @@ import calc3 from '../assets/product/calc/calc-3.jpeg'
 import weather1 from '../assets/product/weather/weather-light.jpeg'
 import weather2 from '../assets/product/weather/weather-dark.jpeg'
 
-
 export default function Widgets(){
     useEffect(() => {
          window.scrollTo(0, 0)
     }, [])
 
     return(
-
         <div class='bg-zinc-50 h-fit w-screen flex justify-center flex-col items-center pt-28 '>
             <Header/>
             <h2 class='pb-4 md:pb-2 text-base md:text-lg font-bold uppercase tracking-widest text-zinc-900 '>Widgets</h2>
@@ -29,7 +27,6 @@ export default function Widgets(){
                 <img class='md:max-h-[500px]' src={calc2}></img>
                 <img class='md:max-h-[500px]' src={calc3}></img>
             </div>
-            {/* <div class='mb-12 h-48 w-48 sm:h-48 sm:w-48 md:h-[600px] md:w-[700px] bg-center bg-cover '  style={{ backgroundImage:`url(${ calc})` }}></div> */}
         </div>
     )
 }

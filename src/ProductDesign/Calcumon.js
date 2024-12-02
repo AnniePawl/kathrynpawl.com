@@ -13,12 +13,10 @@ import animation2 from '../assets/product/calcumon/animation2.png';
 import calcumonHero from '../assets/product/calcumon/calcumon-cover.png'
 import ToTop from "../ToTop";
 
-
 export default function Calcumon(){
     useEffect(() => {
          window.scrollTo(0, 0)
     }, [])
-
     return(
         <div class='overflow-hidden bg-zinc-50 h-fit w-screen flex flex-col items-center justify-center py-28'>
             <Header/>
@@ -39,7 +37,7 @@ export default function Calcumon(){
                         <img class='md:h-[670px]' src={levels}/>
                         <img class='md:h-[670px]' src={play}/>
                     </div>
-            </div>
+                </div>
             <ToTop bgColor='#6de2ed'/>
         </div>
     )

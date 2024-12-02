@@ -26,11 +26,8 @@ import mockup8 from '../assets/studies/fins/fins-mockup-8.jpeg';
 import mockup9 from '../assets/studies/fins/fins-mockup-9.jpeg';
 import mockup10 from '../assets/studies/fins/fins-mockup-10.jpeg';
 import designdeeets from '../assets/studies/fins/fins-design-details.jpeg';
-
 import ToTop from "../ToTop";
-
 import finshero from '../assets/studies/fins/fins-hero.png'
-
 
 export default function Fins(){
     useEffect(() => {
@@ -352,7 +349,6 @@ export default function Fins(){
 
             <ToTop bgColor="#e4e4e7" />
 
-           
         </div>
     )
 }

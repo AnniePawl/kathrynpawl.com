@@ -19,8 +19,6 @@ import shape15 from '../assets/shapes/shapes-15.jpeg'
 import shape16 from '../assets/shapes/shapes-16.jpeg'
 import shape17 from '../assets/shapes/shapes-17.jpeg'
 import shape18 from '../assets/shapes/shapes-18.jpeg'
-import shape19 from '../assets/shapes/shapes-19.jpeg'
-import ballsgif from '../assets/shapes/balls.gif'
 import { useEffect } from "react";
 
 export default function Shapes(){
@@ -32,7 +30,6 @@ export default function Shapes(){
         <div class='overflow-hiden bg-zinc-50 h-fit w-screen flex flex-col justify-center items-center py-20 md:pt-28'>
            <Header/>
             <h2 class='pb-6 md:pb-12 text-base md:text-2xl font-bold uppercase tracking-widest text-zinc-900'>Shapes</h2>
-            {/* <div class='px-4 mb-2 md:mb-6 md:h-[550px] md:w-[1398px] bg-center bg-cover '  style={{ backgroundImage:`url(${ballsgif})` }}></div> */}
             <div className="px-4 md:px-0 flex grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-6">
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape1})` }}></div>
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape2})` }}></div>
@@ -52,7 +49,6 @@ export default function Shapes(){
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape16})` }}></div>
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape17})` }}></div>
                 <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape18})` }}></div>
-                {/* <div class='h-44 w-44 sm:h-48 sm:w-48 md:h-[450px] md:w-[450px] bg-center bg-cover '  style={{ backgroundImage:`url(${shape19})` }}></div> */}
             </div>
             <ToTop bgColor='#fde047'/>
         </div>
